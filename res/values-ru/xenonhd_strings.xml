@@ -64,4 +64,20 @@
   <string name="su_indicator">Индикатор суперпользователя</string>
   <string name="su_indicator_summary_on">Индикатор суперпользователя отображается, когда сессия активна</string>
   <string name="su_indicator_summary_off">Включите, чтобы отображать индикатор суперпользователя когда сессия активна</string>
+  <!--Status bar date -->
+  <string name="status_bar_clock_category">Часы</string>
+  <string name="status_bar_date_title">Дата</string>
+  <string name="status_bar_date_none">Скрыта (по умолчанию)</string>
+  <string name="status_bar_date_small">Маленькая</string>
+  <string name="status_bar_date_normal">Обычный</string>
+  <string name="status_bar_date_format_title">Формат даты</string>
+  <string name="status_bar_date_style">Стиль даты</string>
+  <string name="status_bar_date_style_normal">Обычный</string>
+  <string name="status_bar_date_style_lowercase">Строчными</string>
+  <string name="status_bar_date_style_uppercase">Прописными</string>
+  <string name="status_bar_date_format_custom">Пользовательский java формат</string>
+  <string name="status_bar_date_string_edittext_title">Введённое значение должно соответствовать формату даты, например: ММ/dd/yy</string>
+  <string name="status_bar_date_string_edittext_summary">Ввести значение</string>
+  <string name="menu_save">Сохранить</string>
+  <string name="menu_cancel">Отменить</string>
 </resources>

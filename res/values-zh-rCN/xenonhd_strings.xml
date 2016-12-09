@@ -60,4 +60,5 @@
   <string name="su_indicator">超级用户指示器</string>
   <string name="su_indicator_summary_on">当一个会话是活动时超级用户指示器为可见</string>
   <string name="su_indicator_summary_off">当会话处于活动状态时显示超级用户指示器</string>
+  <!--Status bar date -->
 </resources>

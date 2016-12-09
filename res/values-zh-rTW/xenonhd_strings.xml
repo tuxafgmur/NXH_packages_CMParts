@@ -64,4 +64,20 @@
   <string name="su_indicator">超級使用者指標</string>
   <string name="su_indicator_summary_on">超級使用者的指標會在運行時顯示</string>
   <string name="su_indicator_summary_off">切換為在會話處於活動狀態時顯示超級使用者指標</string>
+  <!--Status bar date -->
+  <string name="status_bar_clock_category">時鐘</string>
+  <string name="status_bar_date_title">日期</string>
+  <string name="status_bar_date_none">隱藏 (預設)</string>
+  <string name="status_bar_date_small">小</string>
+  <string name="status_bar_date_normal">一般</string>
+  <string name="status_bar_date_format_title">日期格式</string>
+  <string name="status_bar_date_style">日期樣式</string>
+  <string name="status_bar_date_style_normal">一般</string>
+  <string name="status_bar_date_style_lowercase">小寫</string>
+  <string name="status_bar_date_style_uppercase">大寫</string>
+  <string name="status_bar_date_format_custom">自訂 java 格式</string>
+  <string name="status_bar_date_string_edittext_title">日期格式必須是此形式 例如：MM/dd/yy</string>
+  <string name="status_bar_date_string_edittext_summary">輸入字串</string>
+  <string name="menu_save">儲存</string>
+  <string name="menu_cancel">捨棄</string>
 </resources>

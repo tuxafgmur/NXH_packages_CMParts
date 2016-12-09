@@ -60,4 +60,5 @@
   <string name="su_indicator">Superuser Göstergesi</string>
   <string name="su_indicator_summary_on">Bir oturum etkin olduğunda superuser göstergesi görünür</string>
   <string name="su_indicator_summary_off">Bir oturumu etkin olduğunda yetkili kullanıcı göstergesi göstermek için Değiştir</string>
+  <!--Status bar date -->
 </resources>

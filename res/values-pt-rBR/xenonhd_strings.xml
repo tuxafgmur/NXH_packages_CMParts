@@ -64,4 +64,7 @@
   <string name="su_indicator">Indicador de superusuário</string>
   <string name="su_indicator_summary_on">Indicador de superusuário fica visível quando uma sessão está ativa</string>
   <string name="su_indicator_summary_off">Alterne para mostrar indicador de superusuário quando a sessão estiver ativa</string>
+  <!--Status bar date -->
+  <string name="status_bar_date_normal">Normal</string>
+  <string name="status_bar_date_style_normal">Normal</string>
 </resources>
