@@ -65,6 +65,19 @@
   <string name="su_indicator_summary_on">L\'indicateur super-utilisateur est visible lorsqu’une session est active</string>
   <string name="su_indicator_summary_off">Activer / Désactiver pour afficher l\'indicateur de super-utilisateur lorsqu\'une session est active</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Horloge</string>
+  <string name="status_bar_date_title">Date</string>
+  <string name="status_bar_date_none">Caché (par défaut)</string>
+  <string name="status_bar_date_small">Petit</string>
   <string name="status_bar_date_normal">Standard</string>
+  <string name="status_bar_date_format_title">Format de la date</string>
+  <string name="status_bar_date_style">Style de la date</string>
   <string name="status_bar_date_style_normal">Standard</string>
+  <string name="status_bar_date_style_lowercase">Minuscule</string>
+  <string name="status_bar_date_style_uppercase">Majuscule</string>
+  <string name="status_bar_date_format_custom">Format personnalisé</string>
+  <string name="status_bar_date_string_edittext_title">Doit être dans le FormatDate, par exemple MM/jj/aa</string>
+  <string name="status_bar_date_string_edittext_summary">Entrer la valeur</string>
+  <string name="menu_save">Enregistrer</string>
+  <string name="menu_cancel">Annuler</string>
 </resources>

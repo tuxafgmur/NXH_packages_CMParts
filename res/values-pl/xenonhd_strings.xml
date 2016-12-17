@@ -40,7 +40,7 @@
   <string name="set">Ustaw</string>
   <string name="color_default">Domyślny</string>
   <!-- Network traffic -->
-  <string name="traffic_category">Wskaźniki ruchu</string>
+  <string name="traffic_category">Wskaźnik ruchu sieciowego</string>
   <string name="network_traffic_title">Ruch sieciowy</string>
   <string name="show_network_traffic_state">Pokaż użycie sieci na pasku stanu</string>
   <string name="show_network_traffic_unit">Wyświetl jednostkę</string>

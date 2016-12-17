@@ -14,9 +14,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">البطارية</string>
+  <string name="battery_bar">موقع شريط البطارية</string>
+  <string name="battery_bar_no_navbar">موقع شريط البطارية</string>
+  <string name="battery_bar_color">لون شريط البطارية</string>
+  <string name="battery_bar_charging_color">لون شريط البطارية عند الشحن</string>
+  <string name="battery_bar_cat">نمط شريط البطارية</string>
+  <string name="battery_bar_style_title">محاذاة شريط البطارية</string>
+  <string name="battery_bar_thickness_title">سمك شريط البطارية</string>
+  <string name="battery_bar_animate_title">الرسوم المتحركة عند الشحن</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_enabled">مفعل</string>
   <!-- Color Picker -->
   <!-- Network traffic -->
   <!-- Superuser indicator on status bar -->
   <!--Status bar date -->
+  <string name="status_bar_date_normal">عادي</string>
+  <string name="status_bar_date_style_normal">عادي</string>
 </resources>

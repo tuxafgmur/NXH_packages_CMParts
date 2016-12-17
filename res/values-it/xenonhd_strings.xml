@@ -65,6 +65,19 @@
   <string name="su_indicator_summary_on">L\'icona superuser è visibile quando una sessione è attiva</string>
   <string name="su_indicator_summary_off">Mostra l\'icona superuser quando una sessione è attiva</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Orologio</string>
+  <string name="status_bar_date_title">Data</string>
+  <string name="status_bar_date_none">Nascosto (predefinito)</string>
+  <string name="status_bar_date_small">Piccola</string>
   <string name="status_bar_date_normal">Normale</string>
+  <string name="status_bar_date_format_title">Formato data</string>
+  <string name="status_bar_date_style">Stile data</string>
   <string name="status_bar_date_style_normal">Normale</string>
+  <string name="status_bar_date_style_lowercase">Minuscolo</string>
+  <string name="status_bar_date_style_uppercase">Maiuscolo</string>
+  <string name="status_bar_date_format_custom">Formato java personalizzato</string>
+  <string name="status_bar_date_string_edittext_title">Il formato della data deve essere MM/gg/aa</string>
+  <string name="status_bar_date_string_edittext_summary">Inserisci stringa</string>
+  <string name="menu_save">Salva</string>
+  <string name="menu_cancel">Annulla</string>
 </resources>
