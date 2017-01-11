@@ -75,8 +75,8 @@
   <string name="status_bar_date_style_normal">Standard</string>
   <string name="status_bar_date_style_lowercase">Minuscule</string>
   <string name="status_bar_date_style_uppercase">Majuscule</string>
-  <string name="status_bar_date_format_custom">Format personnalisé</string>
-  <string name="status_bar_date_string_edittext_title">Doit être dans le FormatDate, par exemple MM/jj/aa</string>
+  <string name="status_bar_date_format_custom">Personnalisée (format java)</string>
+  <string name="status_bar_date_string_edittext_title">Doit être en format JJ/MM/AA</string>
   <string name="status_bar_date_string_edittext_summary">Entrer la valeur</string>
   <string name="menu_save">Enregistrer</string>
   <string name="menu_cancel">Annuler</string>

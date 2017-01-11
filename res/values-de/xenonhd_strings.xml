@@ -37,6 +37,7 @@
   <string name="dialog_color_picker">Farbauswahl</string>
   <string name="press_color_to_apply">Berühren Sie eine der unten angezeigten Farben, um diese anzuwenden</string>
   <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
   <string name="set">Übernehmen</string>
   <string name="color_default">Standard</string>
   <!-- Network traffic -->

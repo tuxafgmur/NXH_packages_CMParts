@@ -28,7 +28,11 @@
   <string name="battery_bar_style_center_mirrored">Merkez Ayna Yansıması</string>
   <string name="battery_bar_style_reversed">Zıt</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Parlaklık kaydırıcı</string>
+  <string name="qs_brightness_slider_enabled">Etkin</string>
   <string name="qs_brightness_slider_disabled">Devre Dışı</string>
+  <string name="brightness_icon_title">Parlaklık Simgesi </string>
+  <string name="brightness_icon_summary">Parlaklık kaydırıcının yanında otomatik parlaklığı ayarlamak için bir simge göster</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Renk Seçici</string>
   <string name="press_color_to_apply">Uygulamak İstediğiniz Yere Basın</string>
@@ -61,4 +65,19 @@
   <string name="su_indicator_summary_on">Bir oturum etkin olduğunda superuser göstergesi görünür</string>
   <string name="su_indicator_summary_off">Bir oturumu etkin olduğunda yetkili kullanıcı göstergesi göstermek için Değiştir</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Saat</string>
+  <string name="status_bar_date_title">Tarih</string>
+  <string name="status_bar_date_none">Gizli (varsayılan)</string>
+  <string name="status_bar_date_small">Küçük</string>
+  <string name="status_bar_date_normal">Normal</string>
+  <string name="status_bar_date_format_title">Tarih biçimi</string>
+  <string name="status_bar_date_style">Tarih stili</string>
+  <string name="status_bar_date_style_normal">Normal</string>
+  <string name="status_bar_date_style_lowercase">Küçük harf</string>
+  <string name="status_bar_date_style_uppercase">Büyük harf</string>
+  <string name="status_bar_date_format_custom">Özel java formatı</string>
+  <string name="status_bar_date_string_edittext_title">Tarih formatı AA/gg/yy vb. olmalı</string>
+  <string name="status_bar_date_string_edittext_summary">Değer girin</string>
+  <string name="menu_save">Kaydet</string>
+  <string name="menu_cancel">Yoksay</string>
 </resources>

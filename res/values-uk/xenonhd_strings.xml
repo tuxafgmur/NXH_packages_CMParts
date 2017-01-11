@@ -15,8 +15,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_enabled">Увімкнено</string>
   <!-- Color Picker -->
   <!-- Network traffic -->
   <!-- Superuser indicator on status bar -->
   <!--Status bar date -->
+  <string name="status_bar_date_normal">Звичайний</string>
+  <string name="status_bar_date_style_normal">Звичайний</string>
 </resources>

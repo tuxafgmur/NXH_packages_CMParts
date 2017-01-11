@@ -14,9 +14,70 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Batterij Balk</string>
+  <string name="battery_bar">Batterij balk locatie</string>
+  <string name="battery_bar_no_navbar">Batterij balk locatie</string>
+  <string name="battery_bar_color">Batterij balk kleur</string>
+  <string name="battery_bar_charging_color">Batterij balk opladen kleur</string>
+  <string name="battery_bar_battery_low_color">Batterij balk bijna leeg kleur</string>
+  <string name="battery_bar_cat">Batterij balk stijl</string>
+  <string name="battery_bar_style_title">Batterij balk uitlijning</string>
+  <string name="battery_bar_thickness_title">Batterij balk dikte</string>
+  <string name="battery_bar_animate_title">Oplaad animatie</string>
+  <string name="battery_bar_style_regular">Normaal</string>
+  <string name="battery_bar_style_center_mirrored">Gecentreerd</string>
+  <string name="battery_bar_style_reversed">Omgekeerd</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Helderheid schuifregelaar</string>
+  <string name="qs_brightness_slider_enabled">Ingeschakeld</string>
+  <string name="qs_brightness_slider_disabled">Uitgeschakeld</string>
+  <string name="brightness_icon_title">Helderheid-pictogram </string>
+  <string name="brightness_icon_summary">Een helderheid pictogram aan de linkerkant van de schuifregelaar weergeven om auto-helderheid aan te passen</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Kleur Kiezer</string>
+  <string name="press_color_to_apply">Druk op kleur hieronder om toe te passen</string>
+  <string name="hex">Hex:</string>
+  <string name="set">Instellen</string>
+  <string name="color_default">Standaard</string>
   <!-- Network traffic -->
+  <string name="traffic_category">Data indicatoren</string>
+  <string name="network_traffic_title">Netwerkverkeer</string>
+  <string name="show_network_traffic_state">Statusbalk Data monitor</string>
+  <string name="show_network_traffic_unit">Beeldscherm</string>
+  <string name="show_network_traffic_frequency">Update Interval</string>
+  <string name="show_network_traffic_disable">Uitgeschakeld</string>
+  <string name="show_network_traffic_up">Uitgaand</string>
+  <string name="show_network_traffic_down">Inkomend</string>
+  <string name="show_network_traffic_all">Uitgaand en inkomend</string>
+  <string name="show_network_traffic_bit">Bits per seconde</string>
+  <string name="show_network_traffic_byte">Bytes per seconde</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
+  <string name="network_traffic_autohide">Automatisch verbergen</string>
+  <string name="network_traffic_autohide_summary">Verberg de Data monitor wanneer er geen activiteit is</string>
+  <string name="network_traffic_autohide_threshold">Inactiviteitsdrempel</string>
+  <string name="network_traffic_hidearrow">Verbergen pijlen</string>
+  <string name="network_traffic_hidearrow_summary">De pijlen in de verkeer-indicatoren verbergen</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">Superuser indicator</string>
+  <string name="su_indicator_summary_on">Supergebruiker indicator is zichtbaar wanneer een sessie actief is</string>
+  <string name="su_indicator_summary_off">Schakelen om superuser indicator weer te geven wanneer een sessie actief is</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Klok</string>
+  <string name="status_bar_date_title">Datum</string>
+  <string name="status_bar_date_none">Verborgen (standaard)</string>
+  <string name="status_bar_date_small">Klein</string>
+  <string name="status_bar_date_normal">Standaard</string>
+  <string name="status_bar_date_format_title">Datum formaat</string>
+  <string name="status_bar_date_style">Datumformaat</string>
+  <string name="status_bar_date_style_normal">Standaard</string>
+  <string name="status_bar_date_style_lowercase">Kleine letters</string>
+  <string name="status_bar_date_style_uppercase">Hoofdletters</string>
+  <string name="status_bar_date_format_custom">Aangepast java formaat</string>
+  <string name="status_bar_date_string_edittext_title">Moet in DateFormat bijv. MM/dd/jj</string>
+  <string name="status_bar_date_string_edittext_summary">Voer tekenreeks in</string>
+  <string name="menu_save">Opslaan</string>
+  <string name="menu_cancel">Negeer</string>
 </resources>

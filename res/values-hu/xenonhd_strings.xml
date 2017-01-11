@@ -14,9 +14,70 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Akkumulátorsáv</string>
+  <string name="battery_bar">Akkumulátorsáv helye</string>
+  <string name="battery_bar_no_navbar">Akkumulátorsáv helye</string>
+  <string name="battery_bar_color">Akkumulátorsáv színe</string>
+  <string name="battery_bar_charging_color">Akkumulátorsáv töltési szín</string>
+  <string name="battery_bar_battery_low_color">Akkumulátorsáv alacsony töltöttségi színe</string>
+  <string name="battery_bar_cat">Akkumulátorsáv stílusa</string>
+  <string name="battery_bar_style_title">Akkumulátorsáv igazítása</string>
+  <string name="battery_bar_thickness_title">Akkumulátorsáv vastagsága</string>
+  <string name="battery_bar_animate_title">Töltési animáció</string>
+  <string name="battery_bar_style_regular">Átlagos</string>
+  <string name="battery_bar_style_center_mirrored">Középre tükrözött</string>
+  <string name="battery_bar_style_reversed">Fordított</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Fényerő csúszka</string>
+  <string name="qs_brightness_slider_enabled">Engedélyezve</string>
+  <string name="qs_brightness_slider_disabled">Kikapcsolva</string>
+  <string name="brightness_icon_title">Fényerő ikon </string>
+  <string name="brightness_icon_summary">Fényerő ikon megjelenítése a fényerőcsúszka bal oldalán az automatikus fényerő beállításához</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Színválasztó</string>
+  <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
+  <string name="hex">Hex:</string>
+  <string name="set">Beállít</string>
+  <string name="color_default">Alapértelmezett</string>
   <!-- Network traffic -->
+  <string name="traffic_category">Forgalom jelzők</string>
+  <string name="network_traffic_title">Hálózati forgalom</string>
+  <string name="show_network_traffic_state">Állapotsori forgalom kijelzés</string>
+  <string name="show_network_traffic_unit">Kijelző egység</string>
+  <string name="show_network_traffic_frequency">Frissítési gyakoriság</string>
+  <string name="show_network_traffic_disable">Kikapcsolva</string>
+  <string name="show_network_traffic_up">Kimenő</string>
+  <string name="show_network_traffic_down">Bejövő</string>
+  <string name="show_network_traffic_all">Kimenő és bejövő</string>
+  <string name="show_network_traffic_bit">Bit / másodperc</string>
+  <string name="show_network_traffic_byte">Bájt / másodperc</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
+  <string name="network_traffic_autohide">Automatikus elrejtés</string>
+  <string name="network_traffic_autohide_summary">Rejtse el a forgalom indikátort, ha nincs tevékenység</string>
+  <string name="network_traffic_autohide_threshold">Inaktivitási küszöb</string>
+  <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
+  <string name="network_traffic_hidearrow_summary">Forgalom indikátor nyilainak elrejtése</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">Superuser indikátor</string>
+  <string name="su_indicator_summary_on">Superuser indikátor látható, ha a munkamenet aktív</string>
+  <string name="su_indicator_summary_off">Superuser indíkátor megjelenítésének váltása aktív munkamenet esetén</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Óra</string>
+  <string name="status_bar_date_title">Dátum</string>
+  <string name="status_bar_date_none">Rejtett (alapértelmezett)</string>
+  <string name="status_bar_date_small">Kicsi</string>
+  <string name="status_bar_date_normal">Normál</string>
+  <string name="status_bar_date_format_title">Dátumformátum</string>
+  <string name="status_bar_date_style">Dátum stílusa</string>
+  <string name="status_bar_date_style_normal">Normál</string>
+  <string name="status_bar_date_style_lowercase">Kisbetűs</string>
+  <string name="status_bar_date_style_uppercase">Nagybetűs</string>
+  <string name="status_bar_date_format_custom">Egyéni formátum</string>
+  <string name="status_bar_date_string_edittext_title">Dátumformátumban kell lennie. Pl: MM/dd/yy</string>
+  <string name="status_bar_date_string_edittext_summary">Adja meg a karakterláncot</string>
+  <string name="menu_save">Mentés</string>
+  <string name="menu_cancel">Elvetés</string>
 </resources>

@@ -28,8 +28,11 @@
   <string name="battery_bar_style_center_mirrored">Centrada-reflejada</string>
   <string name="battery_bar_style_reversed">Invertida</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Barra de brillo</string>
   <string name="qs_brightness_slider_enabled">Habilitado</string>
   <string name="qs_brightness_slider_disabled">Deshabilitado</string>
+  <string name="brightness_icon_title">Icono de brillo </string>
+  <string name="brightness_icon_summary">Mostrar un icono de brillo a la izquierda de la barra de brillo para ajustar el brillo automático</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selección de color</string>
   <string name="press_color_to_apply">Pulse color de debajo para aplicar</string>
@@ -62,12 +65,19 @@
   <string name="su_indicator_summary_on">El indicador de Superusuario es visible cuando una sesión está activa</string>
   <string name="su_indicator_summary_off">Muestra el indicador de superusuario cuando una sesión está activa</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Reloj</string>
   <string name="status_bar_date_title">Fecha</string>
+  <string name="status_bar_date_none">Oculto (por defecto)</string>
+  <string name="status_bar_date_small">Pequeño</string>
   <string name="status_bar_date_normal">Normal</string>
   <string name="status_bar_date_format_title">Formato de la fecha</string>
+  <string name="status_bar_date_style">Estilo de la fecha</string>
   <string name="status_bar_date_style_normal">Normal</string>
+  <string name="status_bar_date_style_lowercase">Minúscula</string>
   <string name="status_bar_date_style_uppercase">Mayúscula</string>
   <string name="status_bar_date_format_custom">Formato de java personalizado</string>
   <string name="status_bar_date_string_edittext_title">El formato de la fecha debe ser por ejemplo: MM/dd/aa</string>
   <string name="status_bar_date_string_edittext_summary">Introduzca cadena</string>
+  <string name="menu_save">Guardar</string>
+  <string name="menu_cancel">Descartar</string>
 </resources>
