@@ -24,6 +24,13 @@
         android:summary="@string/disable_navkeys_summary"
         android:defaultValue="false" />
 
+    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="pixel_nav_animation"
+        android:title="@string/pixel_navbar_anim_title"
+        android:summary="@string/pixel_navbar_anim_summary"
+        android:dependency="display_nav_keys"
+        android:defaultValue="true" />
+
     <org.cyanogenmod.cmparts.input.ButtonBacklightBrightness
         android:key="button_backlight"
         android:title="@string/button_backlight_title"
