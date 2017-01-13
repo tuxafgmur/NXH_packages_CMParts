@@ -41,7 +41,7 @@
     <string name="arrow_right" translatable="false">→</string>
     <string name="arrow_down" translatable="false">↓</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
+    <string name="hex_hint" translatable="false">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
@@ -91,6 +91,6 @@
 
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Requires a config change (display size, navbar position, reboot) themes may overwrite</string>
+    <string name="pixel_navbar_anim_summary">Re-enable navbar or reboot to apply. Themes may overwrite this setting</string>
 
 </resources>
