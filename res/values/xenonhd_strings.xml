@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	Copyright (C) 2015 The TeamHorizon Project
+	Copyright (C) 2015-2017 The TeamHorizon Project
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
 	You may obtain a copy of the License at
@@ -28,6 +28,9 @@
     <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
     <string name="battery_bar_style_reversed">Reversed</string>
 
+    <!-- Battery icon -->
+    <string name="status_bar_battery_style_solid">Solid</string>
+	
     <!-- Brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_enabled">Enabled</string>
@@ -92,5 +95,9 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Navbar animation</string>
     <string name="pixel_navbar_anim_summary">Re-enable navbar or reboot to apply. Themes may overwrite this setting</string>
+
+    <!-- Torch -->
+    <string name="torch_long_press_power_gesture_title">Long-press power button for torch</string>
+    <string name="torch_long_press_power_gesture_desc">Activate the torch by long-pressing the power button while the display is off</string>
 
 </resources>
