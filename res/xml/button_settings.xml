@@ -31,6 +31,12 @@
         android:summary="@string/pixel_navbar_anim_summary"
         android:defaultValue="true" />
 
+    <cyanogenmod.preference.CMSecureSettingSwitchPreference
+            android:key="one_handed_mode_ui"
+            android:title="@string/one_handed_mode_title"
+            android:summary="@string/one_handed_mode_summary"
+            android:defaultValue="false" />
+
     <org.cyanogenmod.cmparts.input.ButtonBacklightBrightness
         android:key="button_backlight"
         android:title="@string/button_backlight_title"
