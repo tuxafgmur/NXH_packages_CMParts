@@ -28,6 +28,7 @@
   <string name="battery_bar_style_center_mirrored">Centrée et reflétée</string>
   <string name="battery_bar_style_reversed">Inversée</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Solide</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Curseur de luminosité</string>
   <string name="qs_brightness_slider_enabled">Activé</string>
@@ -37,7 +38,6 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Sélectionneur de couleur</string>
   <string name="press_color_to_apply">Appuyer sur la couleur ci-dessous pour l\'appliquer</string>
-  <string name="hex">Hex:</string>
   <string name="set">Appliquer</string>
   <string name="color_default">Défaut</string>
   <!-- Network traffic -->
@@ -52,10 +52,6 @@
   <string name="show_network_traffic_all">Sortant et entrant</string>
   <string name="show_network_traffic_bit">Bits par seconde</string>
   <string name="show_network_traffic_byte">Bytes par seconde</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Masquer automatiquement</string>
   <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic lorsqu\'il n\'y a aucune activité</string>
   <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
@@ -67,7 +63,6 @@
   <string name="su_indicator_summary_off">Activer / Désactiver pour afficher l\'indicateur de super-utilisateur lorsqu\'une session est active</string>
   <!--Status bar date -->
   <string name="status_bar_clock_category">Horloge</string>
-  <string name="status_bar_date_title">Date</string>
   <string name="status_bar_date_none">Caché (par défaut)</string>
   <string name="status_bar_date_small">Petit</string>
   <string name="status_bar_date_normal">Standard</string>
@@ -85,5 +80,7 @@
   <string name="pixel_navbar_anim_title">Animation de la barre de navigation</string>
   <string name="pixel_navbar_anim_summary">Réactiver la barre de navigation ou redémarrer pour appliquer. Les thèmes peuvent remplacer ces paramètres</string>
   <!-- Torch -->
-
+  <string name="torch_long_press_power_gesture_title">Appui long sur le bouton d\'alimentation pour la lampe de poche</string>
+  <string name="torch_long_press_power_gesture_desc">Activer la lampe de poche par un appui long sur le bouton d\'alimentation lorsque l\'écran est éteint</string>
+  <!-- One-handed mode -->
 </resources>

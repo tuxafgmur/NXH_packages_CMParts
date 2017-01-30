@@ -28,6 +28,7 @@
   <string name="battery_bar_style_center_mirrored">Zrcadlově na střed</string>
   <string name="battery_bar_style_reversed">Obrácené</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Plný</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
   <string name="qs_brightness_slider_enabled">Zapnuto</string>
@@ -85,5 +86,9 @@
   <string name="pixel_navbar_anim_title">Animace navigační lišty</string>
   <string name="pixel_navbar_anim_summary">Chcete-li použít, restartujte zařízení nebo navigační lištu. Motivy mohou přepsat toto nastavení</string>
   <!-- Torch -->
-
+  <string name="torch_long_press_power_gesture_title">Dlouhým stisknutím tlačítka napájení zapnout svítilnu</string>
+  <string name="torch_long_press_power_gesture_desc">Dlouhým stiskem tlačítka napájení při vypnuté obrazovce zapnout svítilnu</string>
+  <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Režim jedné ruky</string>
+  <string name="one_handed_mode_summary">Umožnit zapnutí režimu jednou rukou posunutím přes navigační lištu</string>
 </resources>

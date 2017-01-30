@@ -14,12 +14,81 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">バッテリーバー</string>
+  <string name="battery_bar">バッテリーバーの位置</string>
+  <string name="battery_bar_no_navbar">バッテリーバーの位置</string>
+  <string name="battery_bar_color">バッテリーバーの色</string>
+  <string name="battery_bar_charging_color">充電時のバーの色</string>
+  <string name="battery_bar_battery_low_color">残量低下時の色</string>
+  <string name="battery_bar_cat">バッテリーバーのスタイル</string>
+  <string name="battery_bar_style_title">バッテリーバーの位置合わせ</string>
+  <string name="battery_bar_thickness_title">バッテリーバーの太さ</string>
+  <string name="battery_bar_animate_title">充電時のアニメーション</string>
+  <string name="battery_bar_style_regular">標準</string>
+  <string name="battery_bar_style_center_mirrored">中央寄せ</string>
+  <string name="battery_bar_style_reversed">反転</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">ソリッド</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">明るさスライダー</string>
+  <string name="qs_brightness_slider_enabled">有効</string>
+  <string name="qs_brightness_slider_disabled">無効</string>
+  <string name="brightness_icon_title">画面の明るさアイコン</string>
+  <string name="brightness_icon_summary">明るさスライダーの隣に「画面の明るさ」ボタンを表示する</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">色の選択</string>
+  <string name="press_color_to_apply">色を選択して適用</string>
+  <string name="hex">16進数:</string>
+  <string name="set">設定</string>
+  <string name="color_default">既定 （デフォルト）</string>
   <!-- Network traffic -->
+  <string name="traffic_category">トラフィックインジケータ</string>
+  <string name="network_traffic_title">ネットワークトラフィック</string>
+  <string name="show_network_traffic_state">ステータスバー上のトラフィックモニター</string>
+  <string name="show_network_traffic_unit">表示単位</string>
+  <string name="show_network_traffic_frequency">更新間隔</string>
+  <string name="show_network_traffic_disable">無効</string>
+  <string name="show_network_traffic_up">送信</string>
+  <string name="show_network_traffic_down">受信</string>
+  <string name="show_network_traffic_all">送信と受信</string>
+  <string name="show_network_traffic_bit">ビット毎秒</string>
+  <string name="show_network_traffic_byte">バイト毎秒</string>
+  <string name="show_network_traffic_500">500ミリ秒</string>
+  <string name="show_network_traffic_1000">1000ミリ秒</string>
+  <string name="show_network_traffic_1500">1500ミリ秒</string>
+  <string name="show_network_traffic_2000">2000ミリ秒</string>
+  <string name="network_traffic_autohide">自動的に隠す</string>
+  <string name="network_traffic_autohide_summary">非アクティブ時にトラフィックモニターを非表示にする</string>
+  <string name="network_traffic_autohide_threshold">非アクティブ判定のしきい値</string>
+  <string name="network_traffic_hidearrow">矢印を非表示</string>
+  <string name="network_traffic_hidearrow_summary">トラフィックモニターの矢印を隠す</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">スーパーユーザーインジケーター</string>
+  <string name="su_indicator_summary_on">スーパーユーザー権限を使用するセッションがアクティブな時インジケーターを表示</string>
+  <string name="su_indicator_summary_off">セッションがアクティブなときにスーパーユーザーのインジケーターを表示するように切り替える</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">時刻</string>
+  <string name="status_bar_date_title">日付</string>
+  <string name="status_bar_date_none">非表示 (デフォルト)</string>
+  <string name="status_bar_date_small">小さい</string>
+  <string name="status_bar_date_normal">普通</string>
+  <string name="status_bar_date_format_title">日付の形式</string>
+  <string name="status_bar_date_style">日付のスタイル</string>
+  <string name="status_bar_date_style_normal">普通</string>
+  <string name="status_bar_date_style_lowercase">小文字</string>
+  <string name="status_bar_date_style_uppercase">大文字</string>
+  <string name="status_bar_date_format_custom">カスタムjava形式</string>
+  <string name="status_bar_date_string_edittext_title">MM/dd/yyの形式でなければなりません</string>
+  <string name="status_bar_date_string_edittext_summary">文字列を入力</string>
+  <string name="menu_save">保存</string>
+  <string name="menu_cancel">破棄</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">ナビバーのアニメーション</string>
+  <string name="pixel_navbar_anim_summary">ナビバーの再有効後または端末の再起動後に反映します。テーマがこの設定を上書きする可能性があります</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">電源ボタンを長押しでトーチ点灯</string>
+  <string name="torch_long_press_power_gesture_desc">画面オフ時に電源ボタンを長押しでトーチを点灯する</string>
+  <!-- One-handed mode -->
+  <string name="one_handed_mode_title">片手モード</string>
+  <string name="one_handed_mode_summary">ナビゲーションバーをスワイプして片手モードを有効</string>
 </resources>

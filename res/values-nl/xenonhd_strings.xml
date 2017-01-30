@@ -37,7 +37,6 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Kleur Kiezer</string>
   <string name="press_color_to_apply">Druk op kleur hieronder om toe te passen</string>
-  <string name="hex">Hex:</string>
   <string name="set">Instellen</string>
   <string name="color_default">Standaard</string>
   <!-- Network traffic -->
@@ -52,17 +51,12 @@
   <string name="show_network_traffic_all">Uitgaand en inkomend</string>
   <string name="show_network_traffic_bit">Bits per seconde</string>
   <string name="show_network_traffic_byte">Bytes per seconde</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Automatisch verbergen</string>
   <string name="network_traffic_autohide_summary">Verberg de Data monitor wanneer er geen activiteit is</string>
   <string name="network_traffic_autohide_threshold">Inactiviteitsdrempel</string>
   <string name="network_traffic_hidearrow">Verbergen pijlen</string>
   <string name="network_traffic_hidearrow_summary">De pijlen in de verkeer-indicatoren verbergen</string>
   <!-- Superuser indicator on status bar -->
-  <string name="su_indicator">Superuser indicator</string>
   <string name="su_indicator_summary_on">Supergebruiker indicator is zichtbaar wanneer een sessie actief is</string>
   <string name="su_indicator_summary_off">Schakelen om superuser indicator weer te geven wanneer een sessie actief is</string>
   <!--Status bar date -->
@@ -83,4 +77,5 @@
   <string name="menu_cancel">Negeer</string>
   <!-- Navbar Animation -->
   <!-- Torch -->
+  <!-- One-handed mode -->
 </resources>

@@ -28,6 +28,7 @@
   <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
   <string name="battery_bar_style_reversed">Umgekehrt</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Fest</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Helligkeitsregler</string>
   <string name="qs_brightness_slider_enabled">Aktiviert</string>
@@ -37,7 +38,6 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Farbauswahl</string>
   <string name="press_color_to_apply">Berühren Sie eine der unten angezeigten Farben, um diese anzuwenden</string>
-  <string name="hex">Hex:</string>
   <string name="set">Übernehmen</string>
   <string name="color_default">Standard</string>
   <!-- Network traffic -->
@@ -70,10 +70,8 @@
   <string name="status_bar_date_title">Datum</string>
   <string name="status_bar_date_none">Ausgeblendet (Standard)</string>
   <string name="status_bar_date_small">Klein</string>
-  <string name="status_bar_date_normal">Normal</string>
   <string name="status_bar_date_format_title">Datumsformat</string>
   <string name="status_bar_date_style">Datumsstil</string>
-  <string name="status_bar_date_style_normal">Normal</string>
   <string name="status_bar_date_style_lowercase">Kleinbuchstaben</string>
   <string name="status_bar_date_style_uppercase">Großbuchstaben</string>
   <string name="status_bar_date_format_custom">Benutzerdefiniertes Java-Format</string>
@@ -82,5 +80,10 @@
   <string name="menu_save">Speichern</string>
   <string name="menu_cancel">Verwerfen</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Navigationsleisten Animation</string>
+  <string name="pixel_navbar_anim_summary">Aktivieren Sie die Navigationsleiste oder starten Sie sie neu. Themen können diese Einstellung überschreiben</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Langes drücken des Ein-/Ausschalter, um Taschenlampe einzuschalten</string>
+  <string name="torch_long_press_power_gesture_desc">Taschenlampe durch langes drücken der Ein-/Ausschalttaste einschalten, während das Display ausgeschaltet ist</string>
+  <!-- One-handed mode -->
 </resources>

@@ -37,7 +37,6 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Színválasztó</string>
   <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
-  <string name="hex">Hex:</string>
   <string name="set">Beállít</string>
   <string name="color_default">Alapértelmezett</string>
   <!-- Network traffic -->
@@ -52,10 +51,6 @@
   <string name="show_network_traffic_all">Kimenő és bejövő</string>
   <string name="show_network_traffic_bit">Bit / másodperc</string>
   <string name="show_network_traffic_byte">Bájt / másodperc</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Automatikus elrejtés</string>
   <string name="network_traffic_autohide_summary">Rejtse el a forgalom indikátort, ha nincs tevékenység</string>
   <string name="network_traffic_autohide_threshold">Inaktivitási küszöb</string>
@@ -83,4 +78,5 @@
   <string name="menu_cancel">Elvetés</string>
   <!-- Navbar Animation -->
   <!-- Torch -->
+  <!-- One-handed mode -->
 </resources>

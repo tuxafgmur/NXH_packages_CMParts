@@ -17,12 +17,15 @@
   <!-- Battery icon -->
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_enabled">Увімкнено</string>
+  <string name="qs_brightness_slider_disabled">Вимкнено</string>
   <!-- Color Picker -->
   <!-- Network traffic -->
+  <string name="show_network_traffic_disable">Вимкнено</string>
   <!-- Superuser indicator on status bar -->
   <!--Status bar date -->
   <string name="status_bar_date_normal">Звичайний</string>
   <string name="status_bar_date_style_normal">Звичайний</string>
   <!-- Navbar Animation -->
   <!-- Torch -->
+  <!-- One-handed mode -->
 </resources>

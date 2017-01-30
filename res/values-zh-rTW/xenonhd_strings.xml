@@ -28,6 +28,7 @@
   <string name="battery_bar_style_center_mirrored">對稱中央</string>
   <string name="battery_bar_style_reversed">反向</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">實線</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑桿</string>
   <string name="qs_brightness_slider_enabled">已啟用</string>
@@ -85,5 +86,9 @@
   <string name="pixel_navbar_anim_title">導覽列動畫</string>
   <string name="pixel_navbar_anim_summary">重新啟用導覽列或重新啟動以套用。 主題可能會覆蓋此設定</string>
   <!-- Torch -->
-
+  <string name="torch_long_press_power_gesture_title">長按電源鍵即可啟動手電筒</string>
+  <string name="torch_long_press_power_gesture_desc">當螢幕關閉時長按電源鍵啟動手電筒</string>
+  <!-- One-handed mode -->
+  <string name="one_handed_mode_title">單手模式</string>
+  <string name="one_handed_mode_summary">允許在導覽列上滑動以啟用單手模式</string>
 </resources>

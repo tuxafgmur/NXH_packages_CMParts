@@ -37,7 +37,6 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selección de color</string>
   <string name="press_color_to_apply">Pulse color de debajo para aplicar</string>
-  <string name="hex">Hex:</string>
   <string name="set">Establecer</string>
   <string name="color_default">Por defecto</string>
   <!-- Network traffic -->
@@ -52,10 +51,6 @@
   <string name="show_network_traffic_all">Entrante y saliente</string>
   <string name="show_network_traffic_bit">Bits por segundo</string>
   <string name="show_network_traffic_byte">Bytes por segundo</string>
-  <string name="show_network_traffic_500">500 ms</string>
-  <string name="show_network_traffic_1000">1000 ms</string>
-  <string name="show_network_traffic_1500">1500 ms</string>
-  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Ocultar automáticamente</string>
   <string name="network_traffic_autohide_summary">Ocultar al monitor de tráfico cuando no haya actividad</string>
   <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
@@ -70,10 +65,8 @@
   <string name="status_bar_date_title">Fecha</string>
   <string name="status_bar_date_none">Oculto (por defecto)</string>
   <string name="status_bar_date_small">Pequeño</string>
-  <string name="status_bar_date_normal">Normal</string>
   <string name="status_bar_date_format_title">Formato de la fecha</string>
   <string name="status_bar_date_style">Estilo de la fecha</string>
-  <string name="status_bar_date_style_normal">Normal</string>
   <string name="status_bar_date_style_lowercase">Minúscula</string>
   <string name="status_bar_date_style_uppercase">Mayúscula</string>
   <string name="status_bar_date_format_custom">Formato de java personalizado</string>
@@ -83,4 +76,5 @@
   <string name="menu_cancel">Descartar</string>
   <!-- Navbar Animation -->
   <!-- Torch -->
+  <!-- One-handed mode -->
 </resources>

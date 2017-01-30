@@ -88,5 +88,7 @@
   <!-- Torch -->
   <string name="torch_long_press_power_gesture_title">Naciśnij i przytrzymaj przycisk zasilania, aby włączyć latarkę</string>
   <string name="torch_long_press_power_gesture_desc">Włączanie latarki przez naciśnięcie przycisku zasilania przy wyłączonym ekranie</string>
-
+  <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Tryb jednoręczny</string>
+  <string name="one_handed_mode_summary">Przesuń po pasku nawigacji, aby włączyć tryb jednoręczny</string>
 </resources>

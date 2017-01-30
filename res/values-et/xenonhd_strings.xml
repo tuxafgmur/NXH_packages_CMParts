@@ -14,12 +14,81 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Akuriba</string>
+  <string name="battery_bar">Akuriba asukoht</string>
+  <string name="battery_bar_no_navbar">Akuriba asukoht</string>
+  <string name="battery_bar_color">Akuriba värv</string>
+  <string name="battery_bar_charging_color">Akuriba laadimise värv</string>
+  <string name="battery_bar_battery_low_color">Akuriba tühja aku värv</string>
+  <string name="battery_bar_cat">Akuriba stiil</string>
+  <string name="battery_bar_style_title">Akuriba joonendamine</string>
+  <string name="battery_bar_thickness_title">Akuriba paksus</string>
+  <string name="battery_bar_animate_title">Laadimise animatsioon</string>
+  <string name="battery_bar_style_regular">Tavaline</string>
+  <string name="battery_bar_style_center_mirrored">Keskpeegeldatud</string>
+  <string name="battery_bar_style_reversed">Ümber pööratud</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Tahke</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Ereduse liugur</string>
+  <string name="qs_brightness_slider_enabled">Lubatud</string>
+  <string name="qs_brightness_slider_disabled">Keelatud</string>
+  <string name="brightness_icon_title">Heleduse ikoon </string>
+  <string name="brightness_icon_summary">Kuva ikoon vasakul pool heleduse liugurit, et muuta heleduse automaatset reguleerimist</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Värvi valija</string>
+  <string name="press_color_to_apply">Värvi rakendamiseks vajutage värvi peale</string>
+  <string name="hex">Hex:</string>
+  <string name="set">Määra</string>
+  <string name="color_default">Vaikimisi</string>
   <!-- Network traffic -->
+  <string name="traffic_category">Võrguliikluse indikaatorid</string>
+  <string name="network_traffic_title">Võrguliiklus</string>
+  <string name="show_network_traffic_state">Olekuriba võrguliikluse monitor</string>
+  <string name="show_network_traffic_unit">Kuvaühik</string>
+  <string name="show_network_traffic_frequency">Uuenduste sagedus</string>
+  <string name="show_network_traffic_disable">Keelatud</string>
+  <string name="show_network_traffic_up">Väljaminev</string>
+  <string name="show_network_traffic_down">Sissetulev</string>
+  <string name="show_network_traffic_all">Sissetulev ja väljaminev</string>
+  <string name="show_network_traffic_bit">Bitti sekundis</string>
+  <string name="show_network_traffic_byte">Baiti sekundis</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
+  <string name="network_traffic_autohide">Peida automaatselt</string>
+  <string name="network_traffic_autohide_summary">Peida võrguliikluse monitor, kui tegevus puudub</string>
+  <string name="network_traffic_autohide_threshold">Tegevusetuse künnis</string>
+  <string name="network_traffic_hidearrow">Peida nooled</string>
+  <string name="network_traffic_hidearrow_summary">Peida võrguliikluse näitaja nooled</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">Superuser indikaator</string>
+  <string name="su_indicator_summary_on">Superuser indikaator on nähtav kui seanss on aktiivne</string>
+  <string name="su_indicator_summary_off">Näita superuser ikooni kui sessioon on aktiivne</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Kell</string>
+  <string name="status_bar_date_title">Kuupäev</string>
+  <string name="status_bar_date_none">Peidetud (vaikimisi)</string>
+  <string name="status_bar_date_small">Väike</string>
+  <string name="status_bar_date_normal">Tavaline</string>
+  <string name="status_bar_date_format_title">Kuupäeva formaat</string>
+  <string name="status_bar_date_style">Kuupäeva stiil</string>
+  <string name="status_bar_date_style_normal">Tavaline</string>
+  <string name="status_bar_date_style_lowercase">Väiketähed</string>
+  <string name="status_bar_date_style_uppercase">Suurtähed</string>
+  <string name="status_bar_date_format_custom">Kohandatud java formaat</string>
+  <string name="status_bar_date_string_edittext_title">Peab olema KuupäevFormaat nt. KK/pp/aa</string>
+  <string name="status_bar_date_string_edittext_summary">Sisestage string</string>
+  <string name="menu_save">Salvesta</string>
+  <string name="menu_cancel">Loobu muudatustest</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Navigeerimisriba animatsioon</string>
+  <string name="pixel_navbar_anim_summary">Lubage navigeerimisriba uuesti või taaskäivitage et muudatusi rakendada. Teemad võivad selle sätte üle kirjutada</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Vajutage pikalt toitenupule et lubada taskulamp</string>
+  <string name="torch_long_press_power_gesture_desc">Aktiveeri taskulamp pikalt vajutades toitenupule, kui ekraan on välja lülitatud</string>
+  <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Ühe käe režiim</string>
+  <string name="one_handed_mode_summary">Lubage ühe käe režiim nipsatades üle navigatsiooniriba</string>
 </resources>
