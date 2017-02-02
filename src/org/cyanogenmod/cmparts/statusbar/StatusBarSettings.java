@@ -118,8 +118,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
-        updatePulldownSummary(mQuickPulldown.getIntValue(0));
         setStatusBarDateDependencies();
+
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
     }
 
     @Override
@@ -203,9 +205,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             setStatusBarDateDependencies();
             return true;
         } else {
-            int batteryStyle = Integer.valueOf((String) newValue);
-            enableStatusBarBatteryDependents(batteryStyle);
-
+        int value = Integer.parseInt((String) newValue);
+        if (preference == mQuickPulldown) {
+            updateQuickPulldownSummary(value);
+        } else if (preference == mStatusBarBattery) {
+            enableStatusBarBatteryDependents(value);
+        }
             return true;
         }
     }
@@ -269,17 +274,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarDateFormat.setEntries(parsedDateEntries);
     }
 
-    private void updatePulldownSummary(int value) {
-        Resources res = getResources();
-
-        if (value == 0) {
-            // quick pulldown deactivated
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_off));
-        } else {
-            String direction = res.getString(value == 2
-                    ? R.string.status_bar_quick_qs_pulldown_summary_left
-                    : R.string.status_bar_quick_qs_pulldown_summary_right);
-            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
-        }
+    private void updateQuickPulldownSummary(int value) {
+        mQuickPulldown.setSummary(value == 0
+                ? R.string.status_bar_quick_qs_pulldown_off
+                : R.string.status_bar_quick_qs_pulldown_summary);
     }
 }
