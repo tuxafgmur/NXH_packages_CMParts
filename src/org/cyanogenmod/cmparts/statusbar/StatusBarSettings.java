@@ -20,8 +20,6 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
@@ -34,16 +32,13 @@ import android.widget.EditText;
 
 import java.util.Date;
 
+import cyanogenmod.preference.CMSystemSettingListPreference;
+
 import org.cyanogenmod.cmparts.R;
 import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
 
-import cyanogenmod.preference.CMSystemSettingListPreference;
-
-
 public class StatusBarSettings extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener {
-
-    private static final String TAG = "StatusBar";
 
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
@@ -61,6 +56,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
     private static final int CUSTOM_CLOCK_DATE_FORMAT_INDEX = 18;
 
+    private CMSystemSettingListPreference mQuickPulldown;
     private CMSystemSettingListPreference mStatusBarClock;
     private CMSystemSettingListPreference mStatusBarAmPm;
     private CMSystemSettingListPreference mStatusBarDate;
@@ -68,26 +64,23 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private CMSystemSettingListPreference mStatusBarDateFormat;
     private CMSystemSettingListPreference mStatusBarBattery;
     private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
-    private CMSystemSettingListPreference mQuickPulldown;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
         ContentResolver resolver = getActivity().getContentResolver();
 
         mStatusBarClock = (CMSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
         mStatusBarClock.setOnPreferenceChangeListener(this);
-        mStatusBarAmPm = (CMSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
         mStatusBarDate = (CMSystemSettingListPreference) findPreference(STATUS_BAR_DATE);
         mStatusBarDateStyle = (CMSystemSettingListPreference) findPreference(STATUS_BAR_DATE_STYLE);
         mStatusBarDateFormat = (CMSystemSettingListPreference) findPreference(STATUS_BAR_DATE_FORMAT);
-        mStatusBarBattery = (CMSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBatteryShowPercent =
                 (CMSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
-        mQuickPulldown = (CMSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
 
+        mStatusBarAmPm = (CMSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
         if (DateFormat.is24HourFormat(getActivity())) {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
@@ -116,10 +109,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
         parseClockDateFormats();
 
+        mStatusBarBattery =
+                (CMSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(2));
         setStatusBarDateDependencies();
 
+        mQuickPulldown =
+                (CMSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
     }
@@ -127,13 +124,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     @Override
     public void onResume() {
         super.onResume();
-        // Adjust clock position for RTL if necessary
-        Configuration config = getResources().getConfiguration();
-        if (config.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
-                mStatusBarClock.setEntries(getActivity().getResources().getStringArray(
-                        R.array.status_bar_clock_position_entries_rtl));
-
-                mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
+            mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
         }
     }
 
@@ -217,12 +211,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     }
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
-        if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
-                batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
-            mStatusBarBatteryShowPercent.setEnabled(false);
-        } else {
-            mStatusBarBatteryShowPercent.setEnabled(true);
-        }
+        mStatusBarBatteryShowPercent.setEnabled(
+                batteryIconStyle != STATUS_BAR_BATTERY_STYLE_HIDDEN
+                && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
     private void setStatusBarDateDependencies() {
