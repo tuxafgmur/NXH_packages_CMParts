@@ -38,6 +38,7 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Renk Seçici</string>
   <string name="press_color_to_apply">Uygulamak İstediğiniz Yere Basın</string>
+  <string name="hex">Hex:</string>
   <string name="set">Ayarla</string>
   <string name="color_default">Varsayılan</string>
   <!-- Network traffic -->
@@ -52,6 +53,10 @@
   <string name="show_network_traffic_all">Giden Ve Gelen</string>
   <string name="show_network_traffic_bit">Bit/Saniye</string>
   <string name="show_network_traffic_byte">Bayt/Saniye</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Otomatik Gizle</string>
   <string name="network_traffic_autohide_summary">Veri Akışı Olmadığında Ağ Trafiğini Gizle</string>
   <string name="network_traffic_autohide_threshold">Faaliyet Sınırı</string>
@@ -66,8 +71,10 @@
   <string name="status_bar_date_title">Tarih</string>
   <string name="status_bar_date_none">Gizli (varsayılan)</string>
   <string name="status_bar_date_small">Küçük</string>
+  <string name="status_bar_date_normal">Normal</string>
   <string name="status_bar_date_format_title">Tarih biçimi</string>
   <string name="status_bar_date_style">Tarih stili</string>
+  <string name="status_bar_date_style_normal">Normal</string>
   <string name="status_bar_date_style_lowercase">Küçük harf</string>
   <string name="status_bar_date_style_uppercase">Büyük harf</string>
   <string name="status_bar_date_format_custom">Özel java formatı</string>
@@ -82,4 +89,6 @@
   <string name="torch_long_press_power_gesture_title">El feneri için güç tuşuna uzun basma</string>
   <string name="torch_long_press_power_gesture_desc">El fenerini etkinleştirmek için ekran kapalıyken güç düğmesine uzun basın</string>
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Tek el modu</string>
+  <string name="one_handed_mode_summary">Tek el modunu etkinleştirmek için navigasyon barında kaydır</string>
 </resources>

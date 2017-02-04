@@ -28,6 +28,7 @@
   <string name="battery_bar_style_center_mirrored">Középre tükrözött</string>
   <string name="battery_bar_style_reversed">Fordított</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Szilárd</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Fényerő csúszka</string>
   <string name="qs_brightness_slider_enabled">Engedélyezve</string>
@@ -37,6 +38,7 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Színválasztó</string>
   <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
+  <string name="hex">Hex:</string>
   <string name="set">Beállít</string>
   <string name="color_default">Alapértelmezett</string>
   <!-- Network traffic -->
@@ -51,6 +53,10 @@
   <string name="show_network_traffic_all">Kimenő és bejövő</string>
   <string name="show_network_traffic_bit">Bit / másodperc</string>
   <string name="show_network_traffic_byte">Bájt / másodperc</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Automatikus elrejtés</string>
   <string name="network_traffic_autohide_summary">Rejtse el a forgalom indikátort, ha nincs tevékenység</string>
   <string name="network_traffic_autohide_threshold">Inaktivitási küszöb</string>
@@ -77,6 +83,12 @@
   <string name="menu_save">Mentés</string>
   <string name="menu_cancel">Elvetés</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Navigációs sáv animáció</string>
+  <string name="pixel_navbar_anim_summary">Engedélyezze újra a navigációs sávot vagy indítsa újra a telefont az alkalmazáshoz. Egyes témák felülírhatják ezt a beállítást</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Zseblámpa a kikapcsoló gomb hosszan nyomásával</string>
+  <string name="torch_long_press_power_gesture_desc">Zseblámpa bekapcsolása a kikapcsoló gomb hosszan nyomására kikapcsolt képernyőnél</string>
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Egykezes üzemmód</string>
+  <string name="one_handed_mode_summary">Engedélyezi a navigációs sávon való csúsztatást az egykezes üzemmód bekapcsolásához</string>
 </resources>
