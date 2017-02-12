@@ -16,13 +16,13 @@
   <!-- Battery Bar -->
   <string name="battery_bar_title">Pasek baterii</string>
   <string name="battery_bar">Lokalizacja paska baterii</string>
-  <string name="battery_bar_no_navbar">Lokalizacja paska baterii</string>
+  <string name="battery_bar_no_navbar">Pozycja paska baterii</string>
   <string name="battery_bar_color">Kolor paska baterii</string>
   <string name="battery_bar_charging_color">Kolor podczas ładowania</string>
   <string name="battery_bar_battery_low_color">Kolor przy niskim poziomie baterii</string>
   <string name="battery_bar_cat">Styl paska baterii</string>
   <string name="battery_bar_style_title">Wyrównanie</string>
-  <string name="battery_bar_thickness_title">Grubość</string>
+  <string name="battery_bar_thickness_title">Rozmiar</string>
   <string name="battery_bar_animate_title">Animacja ładowania</string>
   <string name="battery_bar_style_regular">Domyślny</string>
   <string name="battery_bar_style_center_mirrored">Wyśrodkowany</string>
