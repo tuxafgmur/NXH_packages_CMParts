@@ -21,10 +21,16 @@
   <string name="battery_bar_charging_color">Culoarea barei de baterie când se încarcă</string>
   <!-- Battery icon -->
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Glisorul Luminozitati</string>
   <!-- Color Picker -->
+  <string name="set">Setaţi</string>
+  <string name="color_default">Prestabilit</string>
   <!-- Network traffic -->
+  <string name="network_traffic_title">Trafic de rețea</string>
   <!-- Superuser indicator on status bar -->
   <!--Status bar date -->
+  <string name="status_bar_date_normal">Normal</string>
+  <string name="status_bar_date_style_normal">Normal</string>
   <!-- Navbar Animation -->
   <!-- Torch -->
   <!-- One-handed mode -->

@@ -28,6 +28,7 @@
   <string name="battery_bar_style_center_mirrored">Centrada-reflejada</string>
   <string name="battery_bar_style_reversed">Invertida</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Sólido</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Barra de brillo</string>
   <string name="qs_brightness_slider_enabled">Habilitado</string>
@@ -37,6 +38,7 @@
   <!-- Color Picker -->
   <string name="dialog_color_picker">Selección de color</string>
   <string name="press_color_to_apply">Pulse color de debajo para aplicar</string>
+  <string name="hex">Hex:</string>
   <string name="set">Establecer</string>
   <string name="color_default">Por defecto</string>
   <!-- Network traffic -->
@@ -51,6 +53,10 @@
   <string name="show_network_traffic_all">Entrante y saliente</string>
   <string name="show_network_traffic_bit">Bits por segundo</string>
   <string name="show_network_traffic_byte">Bytes por segundo</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Ocultar automáticamente</string>
   <string name="network_traffic_autohide_summary">Ocultar al monitor de tráfico cuando no haya actividad</string>
   <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
@@ -65,16 +71,24 @@
   <string name="status_bar_date_title">Fecha</string>
   <string name="status_bar_date_none">Oculto (por defecto)</string>
   <string name="status_bar_date_small">Pequeño</string>
+  <string name="status_bar_date_normal">Normal</string>
   <string name="status_bar_date_format_title">Formato de la fecha</string>
   <string name="status_bar_date_style">Estilo de la fecha</string>
+  <string name="status_bar_date_style_normal">Normal</string>
   <string name="status_bar_date_style_lowercase">Minúscula</string>
   <string name="status_bar_date_style_uppercase">Mayúscula</string>
   <string name="status_bar_date_format_custom">Formato de java personalizado</string>
   <string name="status_bar_date_string_edittext_title">El formato de la fecha debe ser por ejemplo: MM/dd/aa</string>
-  <string name="status_bar_date_string_edittext_summary">Introduzca cadena</string>
+  <string name="status_bar_date_string_edittext_summary">Introducir texto</string>
   <string name="menu_save">Guardar</string>
   <string name="menu_cancel">Descartar</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Animación de la barra de navegación</string>
+  <string name="pixel_navbar_anim_summary">Volver a habilitar la barra de navegación o reiniciar para aplicar. Los temas pueden sobreescribir esta configuración</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Pulsación prolongada en el botón de encendido para activar la linterna</string>
+  <string name="torch_long_press_power_gesture_desc">Activar la linterna haciendo pulsación prolongada del botón de encendido cuando la pantalla está apagada</string>
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Modo a una mano</string>
+  <string name="one_handed_mode_summary">Permitir deslizar en la barra de navegación para activar el modo a una mano</string>
 </resources>
