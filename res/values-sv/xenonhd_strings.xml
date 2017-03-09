@@ -25,6 +25,7 @@
   <string name="brightness_icon_title">Ljusstyrke-ikon </string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Färgväljare</string>
+  <string name="hex">Hex:</string>
   <string name="color_default">Förvalt</string>
   <!-- Network traffic -->
   <string name="traffic_category">Trafikindikatorer</string>
@@ -36,6 +37,10 @@
   <string name="show_network_traffic_down">Inkommande</string>
   <string name="show_network_traffic_bit">Bitar per sekund</string>
   <string name="show_network_traffic_byte">Byte per sekund</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Auto-dölj</string>
   <string name="network_traffic_hidearrow">Dölj pilar</string>
   <!-- Superuser indicator on status bar -->
@@ -44,8 +49,10 @@
   <string name="status_bar_date_title">Datum</string>
   <string name="status_bar_date_none">Dold (standard)</string>
   <string name="status_bar_date_small">Liten</string>
+  <string name="status_bar_date_normal">Normal</string>
   <string name="status_bar_date_format_title">Datumformat</string>
   <string name="status_bar_date_style">Datumstil</string>
+  <string name="status_bar_date_style_normal">Normal</string>
   <string name="status_bar_date_style_lowercase">Gemener</string>
   <string name="status_bar_date_style_uppercase">Versaler</string>
   <string name="status_bar_date_format_custom">Anpassat java-format</string>
