@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Domyślny</string>
   <string name="battery_bar_style_center_mirrored">Wyśrodkowany</string>
   <string name="battery_bar_style_reversed">Odwrócony</string>
+  <string name="battery_bar_use_gradient_color">Gradient kolorów</string>
+  <string name="battery_bar_gradient_color_summary">Użyj płynnego przejścia kolorów dla poziomu naładowania baterii</string>
+  <string name="battery_bar_high_color">Kolor wysokiego poziomu baterii</string>
+  <string name="battery_bar_low_color">Kolor niskiego poziomu baterii</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Koło</string>
   <!-- Brightness slider -->

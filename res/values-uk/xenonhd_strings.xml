@@ -14,10 +14,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Індикатор заряду батареї</string>
+  <string name="battery_bar">Розташування індикатора батареї</string>
+  <string name="battery_bar_no_navbar">Розташування індикатора батареї</string>
+  <string name="battery_bar_color">Колір індикатора батареї</string>
+  <string name="battery_bar_charging_color">Колір індикатора батареї при зарядці</string>
+  <string name="battery_bar_battery_low_color">Колір індикатора батареї при низькому заряді акумулятора</string>
+  <string name="battery_bar_cat">Стиль індикатора батареї</string>
+  <string name="battery_bar_style_title">Вирівнювання індикатора батареї</string>
+  <string name="battery_bar_thickness_title">Товщина індикатора батареї</string>
+  <string name="battery_bar_animate_title">Анімація зарядки</string>
+  <string name="battery_bar_style_regular">Звичайний</string>
+  <string name="battery_bar_style_center_mirrored">Дзеркально від центра</string>
+  <string name="battery_bar_style_reversed">Віддзеркалений</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Суцільний</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Повзунок яскравості</string>
   <string name="qs_brightness_slider_enabled">Увімкнено</string>
   <string name="qs_brightness_slider_disabled">Вимкнено</string>
+  <string name="brightness_icon_title">Значок яскравості </string>
   <!-- Color Picker -->
   <!-- Network traffic -->
   <string name="show_network_traffic_disable">Вимкнено</string>
