@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Normale</string>
   <string name="battery_bar_style_center_mirrored">Centrato speculare</string>
   <string name="battery_bar_style_reversed">Invertito</string>
+  <string name="battery_bar_use_gradient_color">Usa colore sfumato</string>
+  <string name="battery_bar_gradient_color_summary">Utilizza la sfumatura del colore come una scala per il livello della batteria</string>
+  <string name="battery_bar_high_color">Colore alto livello</string>
+  <string name="battery_bar_low_color">Colore basso livello</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Solido</string>
   <!-- Brightness slider -->

@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Átlagos</string>
   <string name="battery_bar_style_center_mirrored">Középre tükrözött</string>
   <string name="battery_bar_style_reversed">Fordított</string>
+  <string name="battery_bar_use_gradient_color">Színátmenet használata</string>
+  <string name="battery_bar_gradient_color_summary">Színátmenet használata az akkumulátor töltöttségi szintjéhez</string>
+  <string name="battery_bar_high_color">Magas szint színe</string>
+  <string name="battery_bar_low_color">Alacsony szint színe</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Szilárd</string>
   <!-- Brightness slider -->

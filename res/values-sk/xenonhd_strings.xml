@@ -14,13 +14,85 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Pruh batérie</string>
+  <string name="battery_bar">Umiestnenie pruhu batérie</string>
+  <string name="battery_bar_no_navbar">Umiestnenie pruhu batérie</string>
+  <string name="battery_bar_color">Farba pruhu batérie</string>
+  <string name="battery_bar_charging_color">Farba pruhu batérie pri nabíjaní</string>
+  <string name="battery_bar_battery_low_color">Farba pruhu batérie pri vybití</string>
+  <string name="battery_bar_cat">Štýl pruhu batérie</string>
+  <string name="battery_bar_style_title">Zarovnanie pruhu batérie</string>
+  <string name="battery_bar_thickness_title">Hrúbka pruhu batérie</string>
+  <string name="battery_bar_animate_title">Animácia nabíjania</string>
+  <string name="battery_bar_style_regular">Klasické</string>
+  <string name="battery_bar_style_center_mirrored">Zrkadlovo na stred</string>
+  <string name="battery_bar_style_reversed">Obrátene</string>
+  <string name="battery_bar_use_gradient_color">Použiť farebný prechod</string>
+  <string name="battery_bar_gradient_color_summary">Použiť farebný prechod ako mierku pre zobrazenie úrovne nabitia batérie</string>
+  <string name="battery_bar_high_color">Farba vysokej úrovne</string>
+  <string name="battery_bar_low_color">Farba nízkej úrovne</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Plný</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Posuvník jasu</string>
+  <string name="qs_brightness_slider_enabled">Zapnuté</string>
+  <string name="qs_brightness_slider_disabled">Vypnuté</string>
+  <string name="brightness_icon_title">Ikona jasu </string>
+  <string name="brightness_icon_summary">Zobraziť ikonu jasu naľavo od posuvníka</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Výber farby</string>
+  <string name="press_color_to_apply">Kliknite na farbu pre jej výber</string>
+  <string name="hex">Hex:</string>
+  <string name="set">Nastaviť</string>
+  <string name="color_default">Predvolené</string>
   <!-- Network traffic -->
+  <string name="traffic_category">Indikátor dátových prenosov</string>
+  <string name="network_traffic_title">Sieťová prevádzka</string>
+  <string name="show_network_traffic_state">Zobrazenie monitora sieťovej prevádzky v stavovom riadku</string>
+  <string name="show_network_traffic_unit">Zobrazovať jednotky</string>
+  <string name="show_network_traffic_frequency">Interval aktualizácie</string>
+  <string name="show_network_traffic_disable">Vypnuté</string>
+  <string name="show_network_traffic_up">Odchádzajúce dáta</string>
+  <string name="show_network_traffic_down">Prichádzajúce dáta</string>
+  <string name="show_network_traffic_all">Odchádzajúce a prichádzajúce dáta</string>
+  <string name="show_network_traffic_bit">Bitov za sekundu</string>
+  <string name="show_network_traffic_byte">Bajtov za sekundu</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
+  <string name="network_traffic_autohide">Automaticky skrývať</string>
+  <string name="network_traffic_autohide_summary">Skryť, pokiaľ sa neprenášajú žiadne dáta</string>
+  <string name="network_traffic_autohide_threshold">Prah nečinnosti</string>
+  <string name="network_traffic_hidearrow">Skryť šípky</string>
+  <string name="network_traffic_hidearrow_summary">Skryť šípky dátovej prevádzky</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">Indikátor Superusera</string>
+  <string name="su_indicator_summary_on">Superuser ukazovateľ je zobrazený, ak je aktívna relácia</string>
+  <string name="su_indicator_summary_off">Ak je relácia aktívna, zobrazí sa ikona indikujúca superpoužívateľa</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Hodiny</string>
+  <string name="status_bar_date_title">Dátum</string>
+  <string name="status_bar_date_none">Skrytý (predvolené)</string>
+  <string name="status_bar_date_small">Malý</string>
+  <string name="status_bar_date_normal">Normalny</string>
+  <string name="status_bar_date_format_title">Formát dátumu</string>
+  <string name="status_bar_date_style">Štýl dátumu</string>
+  <string name="status_bar_date_style_normal">Normalny</string>
+  <string name="status_bar_date_style_lowercase">Malé písmená</string>
+  <string name="status_bar_date_style_uppercase">Veľké písmená</string>
+  <string name="status_bar_date_format_custom">Vlastný java formát</string>
+  <string name="status_bar_date_string_edittext_title">Musí byť vo formáte dátumu napr. MM/dd/yy</string>
+  <string name="status_bar_date_string_edittext_summary">Zadajte reťazec</string>
+  <string name="menu_save">Uložiť</string>
+  <string name="menu_cancel">Odstrániť</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Animácia navigačnej lišty</string>
+  <string name="pixel_navbar_anim_summary">Ak chcete použiť, reštartujte zariadenie alebo navigačnú lištu. Témy môžu prepísať toto nastavenie</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Zapnutie Baterky dlhým stlačením tlačidla Napájanie</string>
+  <string name="torch_long_press_power_gesture_desc">Keď obrazovka je vypnutá, dlhým zatlačením tlačidla Napájanie zapnete Baterku</string>
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Režim jednou rukou</string>
+  <string name="one_handed_mode_summary">Umožní zapnúť režim jednou rukou posunutím po navigačnej lište</string>
 </resources>

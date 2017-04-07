@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">一般</string>
   <string name="battery_bar_style_center_mirrored">對稱中央</string>
   <string name="battery_bar_style_reversed">反向</string>
+  <string name="battery_bar_use_gradient_color">使用漸變顏色</string>
+  <string name="battery_bar_gradient_color_summary">使用漸變顏色作為電池電量的刻度</string>
+  <string name="battery_bar_high_color">高級別的顏色</string>
+  <string name="battery_bar_low_color">低級別的顏色</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">實線</string>
   <!-- Brightness slider -->

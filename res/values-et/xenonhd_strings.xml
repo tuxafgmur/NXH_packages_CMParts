@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Tavaline</string>
   <string name="battery_bar_style_center_mirrored">Keskpeegeldatud</string>
   <string name="battery_bar_style_reversed">Ümber pööratud</string>
+  <string name="battery_bar_use_gradient_color">Kasuta gradientset värvi</string>
+  <string name="battery_bar_gradient_color_summary">Kasutada gradientset värvi skaalana akul</string>
+  <string name="battery_bar_high_color">Kõrge taseme värv</string>
+  <string name="battery_bar_low_color">Madala taseme värv</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Tahke</string>
   <!-- Brightness slider -->

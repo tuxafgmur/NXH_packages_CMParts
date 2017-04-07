@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Normal</string>
   <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
   <string name="battery_bar_style_reversed">Umgekehrt</string>
+  <string name="battery_bar_use_gradient_color">Toast-Text Farbe</string>
+  <string name="battery_bar_gradient_color_summary">Verwende Farbverlauf als Maßstab für den Akkustand</string>
+  <string name="battery_bar_high_color">Farbe bei hohem Akkustand</string>
+  <string name="battery_bar_low_color">Farbe bei niedrigem Akkustand</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Fest</string>
   <!-- Brightness slider -->

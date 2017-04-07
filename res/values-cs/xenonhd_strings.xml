@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Klasické</string>
   <string name="battery_bar_style_center_mirrored">Zrcadlově na střed</string>
   <string name="battery_bar_style_reversed">Obrácené</string>
+  <string name="battery_bar_use_gradient_color">Použít barvu přechodu</string>
+  <string name="battery_bar_gradient_color_summary">Použít barvu přechodu jako měřítko pro stav baterie</string>
+  <string name="battery_bar_high_color">Barva vysoké úrovně</string>
+  <string name="battery_bar_low_color">Barva nízké úrovně</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Plný</string>
   <!-- Brightness slider -->
