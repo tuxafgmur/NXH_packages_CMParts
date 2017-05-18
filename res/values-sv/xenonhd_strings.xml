@@ -19,9 +19,16 @@
   <string name="battery_bar_no_navbar">Batterifältsläge</string>
   <string name="battery_bar_color">Batterifältsfärg</string>
   <string name="battery_bar_charging_color">Batterifältets laddningsfärg</string>
+  <string name="battery_bar_battery_low_color">Batterifältets färg vid låg batterinivå</string>
+  <string name="battery_bar_cat">Batterifältets stil</string>
+  <string name="battery_bar_style_title">Batterifältets placering</string>
+  <string name="battery_bar_thickness_title">Batterifältets tjocklek</string>
   <string name="battery_bar_animate_title">Laddningsanimation</string>
   <string name="battery_bar_style_regular">Vanlig</string>
+  <string name="battery_bar_style_center_mirrored">Centerspeglad</string>
   <string name="battery_bar_style_reversed">Omvänd</string>
+  <string name="battery_bar_use_gradient_color">Använd gradient färg</string>
+  <string name="battery_bar_gradient_color_summary">Använd gradient färg som skala för batterinivån</string>
   <!-- Battery icon -->
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Ljusstyrkereglage</string>
