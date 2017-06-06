@@ -27,6 +27,10 @@
   <string name="battery_bar_style_regular">Звичайний</string>
   <string name="battery_bar_style_center_mirrored">Дзеркально від центра</string>
   <string name="battery_bar_style_reversed">Віддзеркалений</string>
+  <string name="battery_bar_use_gradient_color">Використовувати градієнт кольору</string>
+  <string name="battery_bar_gradient_color_summary">Використовувати градієнт в якості шкали для рівня заряду акумулятора</string>
+  <string name="battery_bar_high_color">Високий рівень кольору</string>
+  <string name="battery_bar_low_color">Низький рівень кольору</string>
   <!-- Battery icon -->
   <string name="status_bar_battery_style_solid">Суцільний</string>
   <!-- Brightness slider -->
@@ -34,14 +38,61 @@
   <string name="qs_brightness_slider_enabled">Увімкнено</string>
   <string name="qs_brightness_slider_disabled">Вимкнено</string>
   <string name="brightness_icon_title">Значок яскравості </string>
+  <string name="brightness_icon_summary">Показати піктограму ввімкнення авто-яскравості ліворуч від повзунка</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Палітра кольорів</string>
+  <string name="press_color_to_apply">Натисніть на колір нижче, щоб застосувати</string>
+  <string name="hex">Hex код:</string>
+  <string name="set">Задати</string>
+  <string name="color_default">За замовчуванням</string>
   <!-- Network traffic -->
+  <string name="traffic_category">Індикатор трафіку</string>
+  <string name="network_traffic_title">Трафік мережі</string>
+  <string name="show_network_traffic_state">Монітор трафіку в статус барі</string>
+  <string name="show_network_traffic_unit">Одиниця відображення</string>
+  <string name="show_network_traffic_frequency">Частота оновлення</string>
   <string name="show_network_traffic_disable">Вимкнено</string>
+  <string name="show_network_traffic_up">Вихідний</string>
+  <string name="show_network_traffic_down">Вхідний</string>
+  <string name="show_network_traffic_all">Вихідний та вхідний</string>
+  <string name="show_network_traffic_bit">Біт/сек</string>
+  <string name="show_network_traffic_byte">Байт/сек</string>
+  <string name="show_network_traffic_500">500 мс</string>
+  <string name="show_network_traffic_1000">1000 мс</string>
+  <string name="show_network_traffic_1500">1500 мс</string>
+  <string name="show_network_traffic_2000">2000 мс</string>
+  <string name="network_traffic_autohide">Автоприховування</string>
+  <string name="network_traffic_autohide_summary">Приховувати монітор трафіку, коли немає ніякої активності</string>
+  <string name="network_traffic_autohide_threshold">Поріг неактивності</string>
+  <string name="network_traffic_hidearrow">Приховати стрілки</string>
+  <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">Індикатор суперкористувача</string>
+  <string name="su_indicator_summary_on">Індикатор суперкористувача відображається, коли сесія активна</string>
+  <string name="su_indicator_summary_off">Увімкнути або вимкнути показ індикатора суперкористувача, коли сеанс активний</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Годинник</string>
+  <string name="status_bar_date_title">Дата</string>
+  <string name="status_bar_date_none">Приховані (за замовчуванням)</string>
+  <string name="status_bar_date_small">Малий</string>
   <string name="status_bar_date_normal">Звичайний</string>
+  <string name="status_bar_date_format_title">Формат дати</string>
+  <string name="status_bar_date_style">Стиль дати</string>
   <string name="status_bar_date_style_normal">Звичайний</string>
+  <string name="status_bar_date_style_lowercase">Нижній регістр</string>
+  <string name="status_bar_date_style_uppercase">Верхній регістр</string>
+  <string name="status_bar_date_format_custom">Користувацький java формат</string>
+  <string name="status_bar_date_string_edittext_title">Має бути в форматі ММ/ДД/РР</string>
+  <string name="status_bar_date_string_edittext_summary">Введіть значення</string>
+  <string name="menu_save">Зберегти</string>
+  <string name="menu_cancel">Скасувати</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Анімація панелі навігації</string>
+  <string name="pixel_navbar_anim_summary">Уввімкніть заново панель навігації або перезавантажтесь для застосування налаштувань. Теми можуть перезаписати цю настройку</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Довге натискання кнопки живлення для увімкнення ліхтарика</string>
+  <string name="torch_long_press_power_gesture_desc">Увімкніть ліхтарик довгим натисканням кнопки живлення, при вимкненому екрані</string>
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Режим \"Управління однією рукою\"</string>
+  <string name="one_handed_mode_summary">Дозволяє проведенням по панелі навігації увімкнути режим \"Управління однією рукою\"</string>
 </resources>
