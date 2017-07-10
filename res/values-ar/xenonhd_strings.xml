@@ -19,21 +19,71 @@
   <string name="battery_bar_no_navbar">موقع شريط البطارية</string>
   <string name="battery_bar_color">لون شريط البطارية</string>
   <string name="battery_bar_charging_color">لون شريط البطارية عند الشحن</string>
+  <string name="battery_bar_battery_low_color">لون شريط البطارية عندما تكون البطارية ضعيفة</string>
   <string name="battery_bar_cat">نمط شريط البطارية</string>
   <string name="battery_bar_style_title">محاذاة شريط البطارية</string>
   <string name="battery_bar_thickness_title">سمك شريط البطارية</string>
   <string name="battery_bar_animate_title">الرسوم المتحركة عند الشحن</string>
+  <string name="battery_bar_style_regular">العادية</string>
+  <string name="battery_bar_style_center_mirrored">مركزي عاكس</string>
+  <string name="battery_bar_style_reversed">معكوس</string>
+  <string name="battery_bar_use_gradient_color">استخدام التدرج اللوني</string>
+  <string name="battery_bar_gradient_color_summary">استخدام التدرج اللوني كمقياس لمستوى البطارية</string>
+  <string name="battery_bar_high_color">لون المستوى العالي\"</string>
+  <string name="battery_bar_low_color">لون المستوى المنخفض\"</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">صلب</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">مزلاق السطوع</string>
   <string name="qs_brightness_slider_enabled">مفعل</string>
   <string name="qs_brightness_slider_disabled">غير مفعل</string>
+  <string name="brightness_icon_title">ايقونة الاضاءة </string>
+  <string name="brightness_icon_summary">اظهار ايقونة الاضاءة الى يسار شريط الاضاءة لتفعيل الاضاءة التلقائية</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">منتقي الألوان</string>
+  <string name="press_color_to_apply">اضغط على اللون أدناه لتطبيق</string>
+  <string name="hex">ست عشري:</string>
+  <string name="set">تعيين</string>
+  <string name="color_default">الوضع الأصلي</string>
   <!-- Network traffic -->
+  <string name="traffic_category">مؤشر حركة الشبكة</string>
+  <string name="network_traffic_title">حركة شبكة الاتصال</string>
+  <string name="show_network_traffic_state">مراقب حركة البيانات على شريط الحالة</string>
+  <string name="show_network_traffic_unit">وحدة العرض</string>
+  <string name="show_network_traffic_frequency">فترات التحديث</string>
   <string name="show_network_traffic_disable">غير مفعل</string>
+  <string name="show_network_traffic_up">الصادرة</string>
+  <string name="show_network_traffic_down">الواردة</string>
+  <string name="show_network_traffic_all">الصادرة والواردة</string>
+  <string name="show_network_traffic_bit">بت في الثانية</string>
+  <string name="show_network_traffic_byte">بايت في الثانية</string>
+  <string name="show_network_traffic_500">500 م.ث</string>
+  <string name="show_network_traffic_1000">1000 م. ث</string>
+  <string name="show_network_traffic_1500">1500 م. ث</string>
+  <string name="show_network_traffic_2000">2000 م. ث</string>
+  <string name="network_traffic_autohide">اخفاء تلقائي</string>
+  <string name="network_traffic_autohide_summary">اخفاء رصد حركة تنقل البيانات عند عدم وجود نشاط</string>
+  <string name="network_traffic_autohide_threshold">عتبة عدم النشاط</string>
+  <string name="network_traffic_hidearrow">اخفاء الاسهم</string>
+  <string name="network_traffic_hidearrow_summary">اخفاء الاسهم في مؤشر حركة البيانات</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">مؤشر superuser</string>
+  <string name="su_indicator_summary_on">مؤشر superuser مرئي عند وجود مقطع فعال</string>
+  <string name="su_indicator_summary_off">تبديل لاظهار مؤشر superuser عند وجود مقطع فعال</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">الساعة</string>
+  <string name="status_bar_date_title">التاريخ</string>
+  <string name="status_bar_date_none">مخفي (إفتراضي)</string>
+  <string name="status_bar_date_small">صغيرة</string>
   <string name="status_bar_date_normal">عادي</string>
+  <string name="status_bar_date_format_title">صيغة التاريخ</string>
+  <string name="status_bar_date_style">نمط التاريخ</string>
   <string name="status_bar_date_style_normal">عادي</string>
+  <string name="status_bar_date_style_lowercase">احرف صغيرة</string>
+  <string name="status_bar_date_style_uppercase">احرف كبيرة</string>
+  <string name="status_bar_date_format_custom">نسق جاڤا مخصص</string>
+  <string name="status_bar_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
+  <string name="status_bar_date_string_edittext_summary">ادخل سلسلة</string>
   <!-- Navbar Animation -->
   <!-- Torch -->
   <!-- One-handed mode -->

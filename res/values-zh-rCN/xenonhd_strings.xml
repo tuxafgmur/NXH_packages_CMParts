@@ -29,7 +29,10 @@
   <string name="battery_bar_style_reversed">反转</string>
   <!-- Battery icon -->
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">亮度滑块</string>
+  <string name="qs_brightness_slider_enabled">已启用</string>
   <string name="qs_brightness_slider_disabled">已禁用</string>
+  <string name="brightness_icon_title">亮度图标 </string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">颜色选择</string>
   <string name="press_color_to_apply">按选颜色以应用</string>
@@ -62,7 +65,22 @@
   <string name="su_indicator_summary_on">当一个会话是活动时超级用户指示器为可见</string>
   <string name="su_indicator_summary_off">当会话处于活动状态时显示超级用户指示器</string>
   <!--Status bar date -->
+  <string name="status_bar_clock_category">时钟</string>
+  <string name="status_bar_date_title">日期</string>
+  <string name="status_bar_date_none">隐藏 (默认)</string>
+  <string name="status_bar_date_small">小</string>
+  <string name="status_bar_date_normal">正常</string>
+  <string name="status_bar_date_format_title">日期格式</string>
+  <string name="status_bar_date_style">日期样式</string>
+  <string name="status_bar_date_style_normal">正常</string>
+  <string name="status_bar_date_style_lowercase">小写字母</string>
+  <string name="status_bar_date_style_uppercase">大写字母</string>
+  <string name="status_bar_date_string_edittext_title">日期格式 例如: MM/dd/yy</string>
+  <string name="status_bar_date_string_edittext_summary">输入字符</string>
+  <string name="menu_save">保存</string>
+  <string name="menu_cancel">不保存</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">导航栏动画</string>
   <!-- Torch -->
   <!-- One-handed mode -->
 </resources>
