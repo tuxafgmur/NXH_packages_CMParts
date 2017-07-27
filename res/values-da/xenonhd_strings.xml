@@ -14,10 +14,35 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Batteri-indikator</string>
+  <string name="battery_bar">Batteri bar placering</string>
+  <string name="battery_bar_no_navbar">Batteri bar placering</string>
+  <string name="battery_bar_color">Batteri bar placering</string>
+  <string name="battery_bar_charging_color">Batteri bar opladning farve</string>
+  <string name="battery_bar_battery_low_color">Batteri bar lavt batteri farve</string>
+  <string name="battery_bar_cat">Batteri bar placering</string>
+  <string name="battery_bar_style_title">Batteri bar justering</string>
+  <string name="battery_bar_thickness_title">Batteri bar tykkelse</string>
+  <string name="battery_bar_animate_title">Opladning animation</string>
+  <string name="battery_bar_style_regular">Regulær</string>
+  <string name="battery_bar_style_center_mirrored">Center-spejlet</string>
+  <string name="battery_bar_style_reversed">Omvendt</string>
+  <string name="battery_bar_use_gradient_color">Brug gradient farve</string>
+  <string name="battery_bar_gradient_color_summary">Brug gradient farve som en skala for batteriniveau</string>
+  <string name="battery_bar_high_color">Højt niveau farve</string>
+  <string name="battery_bar_low_color">Lavt niveau farve</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Optrukken</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Lysstyrkeniveau</string>
+  <string name="qs_brightness_slider_enabled">Aktiveret</string>
+  <string name="qs_brightness_slider_disabled">Deaktiveret</string>
+  <string name="brightness_icon_title">Lysstyrkeregulering </string>
+  <string name="brightness_icon_summary">Vis en lysstyrke ikonet til venstre for skyderen lysstyrke til at justere auto-lysstyrke</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Farvevælger</string>
   <!-- Network traffic -->
+  <string name="show_network_traffic_disable">Deaktiveret</string>
   <!-- Superuser indicator on status bar -->
   <!--Status bar date -->
   <!-- Navbar Animation -->
