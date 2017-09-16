@@ -14,13 +14,72 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Battery Bar -->
+  <string name="battery_bar_title">Barra da bateria</string>
+  <string name="battery_bar">Localização da barra de bateria</string>
+  <string name="battery_bar_no_navbar">Localização da barra de bateria</string>
+  <string name="battery_bar_color">Cor da barra da bateria</string>
+  <string name="battery_bar_charging_color">Cor da barra da bateria em carregamento</string>
+  <string name="battery_bar_battery_low_color">Cor da barra da bateria fraca</string>
+  <string name="battery_bar_cat">Estilo da barra da bateria</string>
+  <string name="battery_bar_style_title">Alinhamento da barra da bateria</string>
+  <string name="battery_bar_thickness_title">Espessura da barra da bateria</string>
+  <string name="battery_bar_animate_title">Animação de carregamento</string>
+  <string name="battery_bar_style_regular">Normal</string>
+  <string name="battery_bar_style_center_mirrored">Centro-espelhado</string>
+  <string name="battery_bar_style_reversed">Invertida</string>
+  <string name="battery_bar_use_gradient_color">Usar cor gradiente</string>
+  <string name="battery_bar_gradient_color_summary">Usar cor gradiente como uma escala para o nível da bateria</string>
+  <string name="battery_bar_high_color">Alto nível de cor</string>
+  <string name="battery_bar_low_color">Baixo nível de cor</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Sólida</string>
   <!-- Brightness slider -->
+  <string name="qs_brightness_slider_title">Controlo do brilho</string>
+  <string name="qs_brightness_slider_enabled">Activado</string>
+  <string name="qs_brightness_slider_disabled">Desactivado</string>
+  <string name="brightness_icon_title">Ícone do brilho </string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Paleta de cores</string>
+  <string name="press_color_to_apply">Prima numa cor para aplicar</string>
+  <string name="hex">Hex:</string>
+  <string name="set">Definir</string>
+  <string name="color_default">Predefinida</string>
   <!-- Network traffic -->
+  <string name="traffic_category">Indicadores de tráfego</string>
+  <string name="network_traffic_title">Tráfego da rede</string>
+  <string name="show_network_traffic_state">Monitor de tráfego na barra de estado</string>
+  <string name="show_network_traffic_unit">Unidade de visualização</string>
+  <string name="show_network_traffic_frequency">Intervalo de actualização</string>
+  <string name="show_network_traffic_disable">Desactivado</string>
+  <string name="show_network_traffic_up">A enviar</string>
+  <string name="show_network_traffic_down">A receber</string>
+  <string name="show_network_traffic_all">A enviar e receber</string>
+  <string name="show_network_traffic_bit">Bits por segundo</string>
+  <string name="show_network_traffic_byte">Bytes por segundo</string>
+  <string name="show_network_traffic_500">500 ms</string>
+  <string name="show_network_traffic_1000">1000 ms</string>
+  <string name="show_network_traffic_1500">1500 ms</string>
+  <string name="show_network_traffic_2000">2000 ms</string>
   <!-- Superuser indicator on status bar -->
   <!--Status bar date -->
+  <string name="status_bar_clock_category">Relógio</string>
+  <string name="status_bar_date_title">Data</string>
+  <string name="status_bar_date_none">Oculta (predefinição)</string>
+  <string name="status_bar_date_small">Pequeno</string>
+  <string name="status_bar_date_normal">Normal</string>
+  <string name="status_bar_date_format_title">Formato de data</string>
+  <string name="status_bar_date_style">Estilo de data</string>
+  <string name="status_bar_date_style_normal">Normal</string>
+  <string name="status_bar_date_style_lowercase">Minúsculas</string>
+  <string name="status_bar_date_style_uppercase">Maiúsculas</string>
+  <string name="status_bar_date_format_custom">Formato java personalizado</string>
+  <string name="status_bar_date_string_edittext_title">Deve estar num formato de data, por exemplo: DD/MM/AA</string>
+  <string name="status_bar_date_string_edittext_summary">Introduza o texto</string>
+  <string name="menu_save">Guardar</string>
+  <string name="menu_cancel">Rejeitar</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Animação da barra de navegação</string>
   <!-- Torch -->
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Modo Uma Mão</string>
 </resources>
