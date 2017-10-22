@@ -29,24 +29,32 @@
   <string name="battery_bar_style_reversed">Omvänd</string>
   <string name="battery_bar_use_gradient_color">Använd gradient färg</string>
   <string name="battery_bar_gradient_color_summary">Använd gradient färg som skala för batterinivån</string>
+  <string name="battery_bar_high_color">Högklassig färg</string>
+  <string name="battery_bar_low_color">Lågklassig färg</string>
   <!-- Battery icon -->
+  <string name="status_bar_battery_style_solid">Solid</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Ljusstyrkereglage</string>
   <string name="qs_brightness_slider_enabled">Aktiverad</string>
   <string name="qs_brightness_slider_disabled">Inaktiverad</string>
   <string name="brightness_icon_title">Ljusstyrke-ikon </string>
+  <string name="brightness_icon_summary">Visa en ikon för ljusstyrka till vänster om reglaget för ljusstyrka för att justera automatisk ljusstyrka</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Färgväljare</string>
+  <string name="press_color_to_apply">Tryck på en färg nedan för att tillämpa</string>
   <string name="hex">Hex:</string>
+  <string name="set">Ställ in</string>
   <string name="color_default">Förvalt</string>
   <!-- Network traffic -->
   <string name="traffic_category">Trafikindikatorer</string>
   <string name="network_traffic_title">Nätverkstrafik</string>
+  <string name="show_network_traffic_state">Statusfält nätverksmonitor</string>
   <string name="show_network_traffic_unit">Visningsenhet</string>
   <string name="show_network_traffic_frequency">Uppdateringsintervall</string>
   <string name="show_network_traffic_disable">Inaktiverad</string>
   <string name="show_network_traffic_up">Utgående</string>
   <string name="show_network_traffic_down">Inkommande</string>
+  <string name="show_network_traffic_all">Utgående och inkommande</string>
   <string name="show_network_traffic_bit">Bitar per sekund</string>
   <string name="show_network_traffic_byte">Byte per sekund</string>
   <string name="show_network_traffic_500">500 ms</string>
@@ -54,8 +62,14 @@
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Auto-dölj</string>
+  <string name="network_traffic_autohide_summary">Dölja nätverksmonitor när det inte finns någon aktivitet</string>
+  <string name="network_traffic_autohide_threshold">Tröskelvärde för inaktivitet</string>
   <string name="network_traffic_hidearrow">Dölj pilar</string>
+  <string name="network_traffic_hidearrow_summary">Dölj pilarna i nätverksindikatorerna</string>
   <!-- Superuser indicator on status bar -->
+  <string name="su_indicator">Superuserindikator</string>
+  <string name="su_indicator_summary_on">Superuserindikator är synlig vid aktiv session</string>
+  <string name="su_indicator_summary_off">Växla för att visa superuserindikator när en session är aktiv</string>
   <!--Status bar date -->
   <string name="status_bar_clock_category">Klocka</string>
   <string name="status_bar_date_title">Datum</string>
@@ -68,9 +82,17 @@
   <string name="status_bar_date_style_lowercase">Gemener</string>
   <string name="status_bar_date_style_uppercase">Versaler</string>
   <string name="status_bar_date_format_custom">Anpassat java-format</string>
+  <string name="status_bar_date_string_edittext_title">Måste vara i datumformat MM/dd/yy</string>
   <string name="status_bar_date_string_edittext_summary">Ange sträng</string>
   <string name="menu_save">Spara</string>
+  <string name="menu_cancel">Kassera</string>
   <!-- Navbar Animation -->
+  <string name="pixel_navbar_anim_title">Animering för navigationsfält</string>
+  <string name="pixel_navbar_anim_summary">Återaktivera navbar eller starta om ifall du vill tillämpa. Teman kan skriva över den här inställningen</string>
   <!-- Torch -->
+  <string name="torch_long_press_power_gesture_title">Långtryck på strömknappen för ficklampa</string>
+  <string name="torch_long_press_power_gesture_desc">Aktivera ficklampan genom att hålla in strömknappen medans skärmen är av</string>
   <!-- One-handed mode -->
+  <string name="one_handed_mode_title">Enhandsläge</string>
+  <string name="one_handed_mode_summary">Tillåter svepning på navigeringsfältet för att aktivera enhandsläge</string>
 </resources>
