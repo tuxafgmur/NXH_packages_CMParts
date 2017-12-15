@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">Подешавања LineageOS-а</string>
+  <string name="cmparts_title">Подешавања XenonHD-а</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Учитавам\u2026</string>
   <string name="dlg_ok">У реду</string>
@@ -446,24 +446,6 @@
         <![CDATA[<b>Укупно сарадника:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Укупно доприноса:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Последња измена:</b> <xliff:g id="date">%3$s</xliff:g>]]>;</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Слање статистике</string>
-  <string name="anonymous_statistics_summary">Помозите нам да побољшамо LineageOS тако што ћете дозволити слање анонимне статистике.</string>
-  <string name="anonymous_statistics_warning_title">Информације</string>
-  <string name="anonymous_statistics_warning">Анонимни подаци омогућавају програмерима LineageOS-а да прате рад ОС на различитим уређајима. Јединствени идентификатор, који не угрожава вашу приватност, шаље се по сваком подизању система.\n\nДа бисте видели пример, додирните „Прегледај податке“.</string>
-  <string name="enable_reporting_title">Омогући</string>
-  <string name="preview_data_title">Прегледај податке</string>
-  <string name="view_stats_title">Прикажи статистику</string>
-  <string name="anonymous_learn_more">Детаљније</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Јединствени ID</string>
-  <string name="preview_device_title">Уређај</string>
-  <string name="preview_version_title">Верзија</string>
-  <string name="preview_country_title">Земља</string>
-  <string name="preview_carrier_title">Оператер</string>
-  <string name="stats_collection_title">Скупљање статистике</string>
-  <string name="stats_collection_summary">Дозволите скупљање података о инсталацијама и статистике уређаја.</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Аутоматска ротација екрана</string>
   <string name="display_rotation_title">Подешавања ротације</string>
@@ -476,7 +458,6 @@
   <string name="display_rotation_90_title">90 степени</string>
   <string name="display_rotation_180_title">180 степени</string>
   <string name="display_rotation_270_title">270 степени</string>
-  <!-- Weather -->
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Уштеда батерије и перформансе</string>
   <string name="perf_profile_settings_summary">Подесите уштеду енергије и перформансе уређаја.</string>

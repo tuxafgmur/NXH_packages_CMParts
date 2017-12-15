@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">LineageOS 設定</string>
+  <string name="cmparts_title">XenonHD 設定</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">載入中\u2026</string>
   <string name="dlg_ok">確定</string>
@@ -445,26 +445,6 @@
         <![CDATA[<b>總貢獻者：</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>總認可：</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>最後更新：</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS 統計</string>
-  <string name="anonymous_statistics_summary">加入匿名統計報告即可協助改進 LineageOS</string>
-  <string name="anonymous_statistics_warning_title">相關資訊</string>
-  <string name="anonymous_statistics_warning">加入 LineageOS 統計將允許非個人資料被提交到 LineageOS 的開發人員，
-        以追蹤每個裝置上的獨特安裝。提交的資訊包含一個唯一識別碼，此識別碼並不會泄露您的隱私或個人資料。
-        該資料在每次開機時被提交。\n\n輕觸預覽資料以預覽被提交資料的範例。</string>
-  <string name="enable_reporting_title">啟用報告</string>
-  <string name="preview_data_title">預覽資料</string>
-  <string name="view_stats_title">檢視統計</string>
-  <string name="anonymous_learn_more">了解更多</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">識別 ID</string>
-  <string name="preview_device_title">裝置</string>
-  <string name="preview_version_title">版本</string>
-  <string name="preview_country_title">國家/地區</string>
-  <string name="preview_carrier_title">電信業者</string>
-  <string name="stats_collection_title">統計資料收集</string>
-  <string name="stats_collection_summary">允許收集安裝指標和裝置統計資訊</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">自動旋轉螢幕</string>
   <string name="display_rotation_title">旋轉設定</string>
@@ -477,7 +457,6 @@
   <string name="display_rotation_90_title">90 度</string>
   <string name="display_rotation_180_title">180 度</string>
   <string name="display_rotation_270_title">270 度</string>
-  <!-- Weather -->
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">省電與效能</string>
   <string name="perf_profile_settings_summary">調整電源省電功能與裝置效能</string>

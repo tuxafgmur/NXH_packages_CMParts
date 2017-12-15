@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">Inställningar för LineageOS</string>
+  <string name="cmparts_title">Inställningar för XenonHD</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Laddar\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -214,22 +214,12 @@
   <string name="status_bar_icons_title">Statusfältsikoner</string>
   <!-- Protected apps -->
   <!-- Contributors cloud activity -->
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS statistik</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Unikt ID</string>
-  <string name="preview_device_title">Enhet</string>
-  <string name="preview_version_title">Version</string>
-  <string name="preview_country_title">Land</string>
-  <string name="preview_carrier_title">Operatör</string>
   <!-- Display : Rotation  -->
   <string name="display_rotation_unit">grader</string>
   <string name="display_rotation_0_title">0 grader</string>
   <string name="display_rotation_90_title">90 grader</string>
   <string name="display_rotation_180_title">180 grader</string>
   <string name="display_rotation_270_title">270 grader</string>
-  <!-- Weather -->
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->

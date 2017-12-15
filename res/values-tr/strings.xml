@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">LineageOS Ayarları</string>
+  <string name="cmparts_title">XenonHD Ayarları</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Yükleniyor\u2026</string>
   <string name="dlg_ok">TAMAM</string>
@@ -446,24 +446,6 @@
         <![CDATA[<b>Tüm katkı sağlayanlar:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Toplam girdi:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Son güncelleme:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS istatistikleri</string>
-  <string name="anonymous_statistics_summary">LineageOS\'u geliştirmeye yardım etmek için anonim istatistik göndermeyi kabul edin</string>
-  <string name="anonymous_statistics_warning_title">Hakkında</string>
-  <string name="anonymous_statistics_warning">LineageOS İstatistiklerine dahil olmak kişisel olmayan verilerin LineageOS geliştiricilerine cihazlar arasındaki benzersiz yüklemeleri takip etmeleri için gönderilmesine izin verir. Bu bilgi, kişisel bilgi içermeyen ve gizliliğinizi tehdit etmeyen bir benzersiz numara da içerir. Veri her başlangıçta gönderilir.\n\nGönderilecek verinin örneğini görmek için Veriyi Önizle butonunu kullanın.</string>
-  <string name="enable_reporting_title">Raporlamayı etkinleştir</string>
-  <string name="preview_data_title">Veriyi önizle</string>
-  <string name="view_stats_title">İstatistikleri görüntüle</string>
-  <string name="anonymous_learn_more">Fazlasını öğren</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Benzersiz ID</string>
-  <string name="preview_device_title">Cihaz</string>
-  <string name="preview_version_title">Sürüm</string>
-  <string name="preview_country_title">Ülke</string>
-  <string name="preview_carrier_title">Operatör</string>
-  <string name="stats_collection_title">İstatistikler</string>
-  <string name="stats_collection_summary">Yükleme ölçevlerinin ve cihaz istatistiklerinin toplanmasına izin ver</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Ekranı otomatik döndür</string>
   <string name="display_rotation_title">Döndürme ayarları</string>
@@ -476,7 +458,6 @@
   <string name="display_rotation_90_title">90 derece</string>
   <string name="display_rotation_180_title">180 derece</string>
   <string name="display_rotation_270_title">270 derece</string>
-  <!-- Weather -->
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Pil tasarrufu ve performans</string>
   <string name="perf_profile_settings_summary">Cihaz performansı ve pil tasarrufunu ayarla</string>

@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmparts_title">Paramètres de LineageOS</string>
+  <string name="cmparts_title">Paramètres de XenonHD</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Chargement\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -451,24 +451,6 @@
         <![CDATA[<b>Nombre de contributeurs :</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Nombre de contributions :</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Dernière mise à jour :</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Statistiques LineageOS</string>
-  <string name="anonymous_statistics_summary">Contribuez à rendre LineageOS meilleure en envoyant des rapports de statistiques anonymes</string>
-  <string name="anonymous_statistics_warning_title">À propos</string>
-  <string name="anonymous_statistics_warning">Adhérer à LineageOS Statistics autorisera l\'envoi de données non-personnelles aux développeurs de LineageOS, dans le but de tracer les installations uniques par appareils. Les informations transmises contiennent un identifiant unique de l\'appareil, qui ne compromet en aucune manière votre vie privée ou vos données personnelles. Les données sont envoyées à chaque démarrage du système.\n\nPour visualiser un exemple de données pouvant être envoyées, appuyez sur Prévisualiser les données.</string>
-  <string name="enable_reporting_title">Activer les rapports</string>
-  <string name="preview_data_title">Aperçu des données</string>
-  <string name="view_stats_title">Afficher les statistiques</string>
-  <string name="anonymous_learn_more">En savoir plus…</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Identifiant unique</string>
-  <string name="preview_device_title">Appareil</string>
-  <string name="preview_version_title">Version</string>
-  <string name="preview_country_title">Pays</string>
-  <string name="preview_carrier_title">Opérateur</string>
-  <string name="stats_collection_title">Collecte de statistiques</string>
-  <string name="stats_collection_summary">Autoriser la collecte de métriques d\'installation et des statistiques de l\'appareil</string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Rotation automatique de l\'écran</string>
   <string name="display_rotation_title">Paramètres de rotation</string>
@@ -481,7 +463,6 @@
   <string name="display_rotation_90_title">90 degrés</string>
   <string name="display_rotation_180_title">180 degrés</string>
   <string name="display_rotation_270_title">270 degrés</string>
-  <!-- Weather -->
   <!-- Power: Performance profiles -->
   <string name="perf_profile_settings_title">Économiseur de batterie et performances</string>
   <string name="perf_profile_settings_summary">Ajuster les fonctions d\'économie d\'énergie et les performances de l\'appareil</string>
