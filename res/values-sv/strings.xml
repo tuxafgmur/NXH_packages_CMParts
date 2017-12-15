@@ -230,14 +230,6 @@
   <string name="display_rotation_180_title">180 grader</string>
   <string name="display_rotation_270_title">270 grader</string>
   <!-- Weather -->
-  <string name="weather_settings_title">Väder</string>
-  <string name="weather_settings_button">Leverantörsinställningar</string>
-  <string name="weather_settings_providers_title">Leverantörer</string>
-  <string name="weather_settings_temp_units_title">Temperaturenhet</string>
-  <string name="weather_settings_temp_celsius">Celsius</string>
-  <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
-  <string name="weather_settings_keyword">väder</string>
-  <string name="status_bar_show_weather_title">Visa väder</string>
   <!-- Power: Performance profiles -->
   <!-- Applications: Expanded desktop -->
   <!-- Sounds: Charging sounds -->

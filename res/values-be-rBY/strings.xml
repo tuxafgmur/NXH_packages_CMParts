@@ -300,13 +300,6 @@
   <!-- Anonymous Statistics - Preview -->
   <!-- Display : Rotation  -->
   <!-- Weather -->
-  <string name="weather_settings_general_settings_title">Агульнае</string>
-  <string name="weather_settings_temp_units_title">Адзінкі тэмпературы</string>
-  <string name="weather_settings_temp_celsius">Цэльсій</string>
-  <string name="weather_settings_temp_fahrenheit">Фарэнгейт</string>
-  <string name="weather_settings_keyword">надвор\'е</string>
-  <string name="status_bar_show_weather_title">Паказваць надвор\'е</string>
-  <string name="status_bar_show_weather_summary">Паказваць надвор\'е ў радку стану</string>
   <!-- Power: Performance profiles -->
   <string name="perf_profile_overview_summary">Бягучы профіль: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
   <string name="power_save_category_title">Энергазахаваньне</string>
