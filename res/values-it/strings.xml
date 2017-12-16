@@ -432,17 +432,6 @@
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">App protette</string>
   <string name="protected_apps_manager_summary">Gestisci le app protette da un codice di sicurezza</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Collaboratori</string>
-  <string name="contributors_cloud_loading_message">Caricamento dati collaboratori\u2026</string>
-  <string name="contributors_cloud_failed_message">Impossibile caricare dati collaboratori</string>
-  <string name="contributor_info_menu">Info collaboratore</string>
-  <string name="contributor_info_msg"><b>Nome:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-<b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-<b>Commit:</b> <xliff:g id="commits">%3$s</xliff:g></string>
-  <string name="contributions_info_menu">Informazioni contributi</string>
-  <string name="contributions_info_msg"><b>Contributori totali:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>                 <b>Commit totali:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-<b>Ultimo aggiornamento:</b> <xliff:g id="date">%3$s</xliff:g></string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Rotazione automatica schermo</string>
   <string name="display_rotation_title">Impostazioni rotazione</string>

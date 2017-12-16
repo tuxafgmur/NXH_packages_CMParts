@@ -321,20 +321,6 @@
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Aplicaciones protexíes</string>
   <string name="protected_apps_manager_summary">Xestiona qu\'aplicaciones s\'anubren darrera d\'un bloquéu de seguranza</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Collaboradores</string>
-  <string name="contributors_cloud_loading_message">Cargando datos de collaboradores\u2026</string>
-  <string name="contributors_cloud_failed_message">Nun puen cargase los datos de los collaboradores</string>
-  <string name="contributor_info_menu">Información del collaborador</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Nome:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Nomatu:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Unvios:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Información de collaboraciones</string>
-  <string name="contributions_info_msg">
-        <![CDATA[<b>Collaboradores totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Unvios totales:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Anovamientu caberu:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
   <string name="display_rotation_title">Axustes de voltéu</string>
   <string name="display_rotation_unit">graos</string>

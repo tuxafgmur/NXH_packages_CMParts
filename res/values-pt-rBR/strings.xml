@@ -432,20 +432,6 @@
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Apps protegidos</string>
   <string name="protected_apps_manager_summary">Gerencie quais aplicativos ficam escondidos atrás da trava de segurança</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Colaboradores</string>
-  <string name="contributors_cloud_loading_message">Carregando dados de colaboradores\u2026</string>
-  <string name="contributors_cloud_failed_message">Não foi possível carregar os dados de colaboradores</string>
-  <string name="contributor_info_menu">Informação do colaborador</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Nome:</b> <xliff:g id="name">%1$s </xliff:g><br/><br/>
-                 <b>Apelido:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Contribuições:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Informação de colaborações</string>
-  <string name="contributions_info_msg">
-        <![CDATA[<b>Quantidade de colaboradores:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Quantidade de colaborações:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Última atualização:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Girar automaticamente a tela</string>
   <string name="display_rotation_title">Configurações de rotação</string>

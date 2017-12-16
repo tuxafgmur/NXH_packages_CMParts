@@ -213,7 +213,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Statusfältsikoner</string>
   <!-- Protected apps -->
-  <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
   <string name="display_rotation_unit">grader</string>
   <string name="display_rotation_0_title">0 grader</string>

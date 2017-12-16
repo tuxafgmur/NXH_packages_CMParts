@@ -432,20 +432,6 @@
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Các ứng dụng được bảo vệ</string>
   <string name="protected_apps_manager_summary">Quản lý các ứng dụng được ẩn sau khóa an toàn</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Những người đóng góp</string>
-  <string name="contributors_cloud_loading_message">Đang tải dữ liệu của người đóng góp\u2026</string>
-  <string name="contributors_cloud_failed_message">Không thể tải dữ liệu của người đóng góp</string>
-  <string name="contributor_info_menu">Thông tin người đóng góp</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Name:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Thông tin đóng góp</string>
-  <string name="contributions_info_msg">
-        <![CDATA[<b>Total contributors:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Total commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Last update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Tự động xoay màn hình</string>
   <string name="display_rotation_title">Cài đặt xoay</string>

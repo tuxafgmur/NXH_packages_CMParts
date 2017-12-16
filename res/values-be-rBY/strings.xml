@@ -294,7 +294,6 @@
   <string name="status_bar_toggle_brightness_summary">Рэгуляваць яскравасьць экрану рухам пальца, па радку стану</string>
   <!-- Status bar - icon blacklist -->
   <!-- Protected apps -->
-  <!-- Contributors cloud activity -->
   <!-- Display : Rotation  -->
   <!-- Power: Performance profiles -->
   <string name="perf_profile_overview_summary">Бягучы профіль: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>

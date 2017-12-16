@@ -432,20 +432,6 @@
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Geschützte Apps</string>
   <string name="protected_apps_manager_summary">Verwalten Sie, welche Apps hinter einer sicheren Sperre verborgen sind.</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Mitwirkende</string>
-  <string name="contributors_cloud_loading_message">Mitwirkende werden geladen\u2026</string>
-  <string name="contributors_cloud_failed_message">Laden der Mitwirkenden nicht möglich</string>
-  <string name="contributor_info_menu">Mitwirkender – Info</string>
-  <string name="contributor_info_msg">
-<![CDATA[<b>Name:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-<b>Nickname:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-<b>Beiträge:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Beiträge – Info</string>
-  <string name="contributions_info_msg">
-<![CDATA[<b>Mitwirkende insgesamt:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-<b>Beiträge insgesamt:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-<b>Letzte Aktualisierung:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Display : Rotation  -->
   <string name="accelerometer_title">Bildschirm automatisch drehen</string>
   <string name="display_rotation_title">Bildschirmausrichtung</string>
